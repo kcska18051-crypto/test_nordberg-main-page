@@ -42,9 +42,7 @@ if (slider) {
   }
 
   function scheduleAutoPlay() {
-    if (reduceMotion) {
-      return;
-    }
+    return;
     window.clearInterval(timerId);
     timerId = window.setInterval(() => setSlide(activeIndex + 1), 6500);
   }

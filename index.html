@@ -28,13 +28,16 @@
           Москва
         </button>
         <nav class="top-nav" aria-label="Меню первого уровня">
-          <a href="#categories">Каталог</a>
-          <a href="#offers">Лучшие предложения</a>
-          <a href="#about">О компании</a>
+          <a href="#about">О компании <span></span></a>
           <a href="#blog">Блог</a>
+          <a href="/delivery/">Доставка и оплата <span></span></a>
+          <a href="/service/">Услуги <span></span></a>
           <a href="#contacts">Контакты</a>
         </nav>
-        <a class="header-phone" href="tel:+78005505350">8 (800) 550-53-50</a>
+        <div class="header-top__contacts">
+          <a class="header-phone" href="tel:+78003010674">8 800 301 0674</a>
+          <a class="callback-link" href="#contacts">Заказать звонок</a>
+        </div>
       </div>
     </div>
 
@@ -46,21 +49,22 @@
           <span></span>
           <span></span>
         </button>
-        <a class="logo" href="/" aria-label="Nordberg - главная">
+        <a class="logo logo--figma" href="/" aria-label="Nordberg - главная">
           <img src="images/logo-nordberg.png" alt="Nordberg">
+          <span>market</span>
         </a>
+        <div class="header-slogan">Лучшее оборудование<br>для вашего успеха</div>
         <form class="search-form" action="/search/" method="get">
           <label class="visually-hidden" for="site-search">Поиск по сайту</label>
-          <input id="site-search" type="search" name="q" placeholder="Поиск по каталогу">
-          <button type="submit">Найти</button>
+          <input id="site-search" type="search" name="q" placeholder="Найти">
+          <button class="search-form__catalog" type="button">Каталог <span></span></button>
+          <button class="search-form__submit" type="submit" aria-label="Найти"></button>
         </form>
         <div class="header-actions" aria-label="Пользовательские действия">
-          <button class="icon-button" type="button" aria-label="Сравнение">⇄</button>
-          <button class="icon-button" type="button" aria-label="Избранное">♡</button>
-          <button class="cart-button" type="button" aria-label="Корзина">
-            <span>0</span>
-            Корзина
-          </button>
+          <button class="header-action" type="button" aria-label="Войти"><span class="header-action__icon">◎</span><span>Войти</span></button>
+          <button class="header-action" type="button" aria-label="Сравнение"><span class="header-action__icon">☷+</span><span>Сравнение</span></button>
+          <button class="header-action" type="button" aria-label="Избранное"><span class="header-action__icon">♡</span><span>Избранное</span></button>
+          <button class="header-action" type="button" aria-label="Корзина"><span class="header-action__icon">▢</span><span>Корзина</span></button>
         </div>
       </div>
     </div>
@@ -68,12 +72,13 @@
     <!-- Строка каталога и быстрых ссылок -->
     <div class="header-catalog">
       <div class="container header-catalog__inner">
-        <a class="catalog-button" href="#categories">Каталог</a>
+        <a class="catalog-button" href="#categories"><span></span>Каталог</a>
         <nav class="quick-links" aria-label="Избранные подкатегории">
-          <a href="#offers">Двухстоечные подъемники</a>
+          <a href="#offers">Подъемники</a>
+          <a href="#offers">Шиномонтажные станки</a>
+          <a href="#offers">Прессы гидравлические</a>
+          <a href="#offers">Гайковерты</a>
           <a href="#offers">Компрессоры</a>
-          <a href="#offers">Прессы</a>
-          <a href="#video">Видеообзоры</a>
         </nav>
       </div>
     </div>
@@ -116,27 +121,19 @@
         <div class="hero-slider" data-slider>
           <article class="hero-slide is-active">
             <div class="hero-slide__content">
-              <span class="eyebrow">NORDBERG</span>
-              <h1>Надежный партнер для оснащения автосервиса</h1>
-              <p>Более 25 лет поддерживаем постоянное и надежное сотрудничество с автосервисами и промышленными предприятиями России, Белоруссии и Казахстана.</p>
+              <h1>Гайковерты</h1>
               <div class="hero-slide__actions">
                 <a class="button button--primary" href="#categories">Перейти в каталог</a>
-                <a class="button button--ghost" href="#about">О компании</a>
               </div>
             </div>
-            <img src="images/product-lift-n4120a.jpg" alt="Двухстоечный подъемник Nordberg N4120A-4T">
           </article>
           <article class="hero-slide">
             <div class="hero-slide__content">
-              <span class="eyebrow">Сервисная служба</span>
-              <h2>Поддержка оборудования Nordberg на 100%</h2>
-              <p>Каталог включает подъемники, шиномонтажное, гидравлическое, гаражное оборудование, компрессоры и инструменты для автосервиса.</p>
+              <h2>Компрессоры</h2>
               <div class="hero-slide__actions">
-                <a class="button button--primary" href="#offers">Смотреть предложения</a>
-                <a class="button button--ghost" href="#contacts">Связаться</a>
+                <a class="button button--primary" href="#offers">Перейти в каталог</a>
               </div>
             </div>
-            <img src="images/product-compressor-ncp100.jpg" alt="Компрессор Nordberg NCP100">
           </article>
           <div class="slider-controls" aria-label="Управление баннером">
             <button type="button" data-slide-prev aria-label="Предыдущий баннер">‹</button>
@@ -144,18 +141,16 @@
           </div>
         </div>
 
-        <div class="promo-stack">
-          <a class="promo-card promo-card--blue" href="#offers">
-            <span>Хит</span>
-            <strong>Подъемники 4 т</strong>
-            <small>для СТО и автотехцентров</small>
-          </a>
-          <a class="promo-card promo-card--dark" href="#video">
-            <span>Видео</span>
-            <strong>Обзоры оборудования</strong>
-            <small>демонстрация работы</small>
-          </a>
-        </div>
+        <nav class="hero-categories" aria-label="Популярные разделы">
+          <a href="#categories"><span></span>Окрасочное (Покрасочное) оборудование</a>
+          <a href="#categories"><span></span>Оборудование для кузовного ремонта</a>
+          <a href="#categories"><span></span>Шиномонтажное оборудование</a>
+          <a href="#categories"><span></span>Гаражное оборудование</a>
+          <a href="#categories"><span></span>Стенды развал-схождения</a>
+          <a href="#categories"><span></span>Инструменты для автосервиса</a>
+          <a href="#categories"><span></span>Мото оборудование</a>
+          <a href="#categories"><span></span>Весь каталог</a>
+        </nav>
       </div>
     </section>
 
