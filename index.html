@@ -15,7 +15,7 @@
   <meta property="og:locale" content="ru_RU">
   <link rel="canonical" href="https://nordberg.ru/">
   <link rel="icon" href="images/logo-nordberg.png" type="image/png">
-  <link rel="stylesheet" href="./css/style.css?v=20260709-figma2">
+  <link rel="stylesheet" href="./css/style.css?v=20260709-offers1">
   <title>Nordberg - оборудование для автосервиса</title>
 </head>
 <body>
@@ -72,7 +72,7 @@
     <!-- Строка каталога и быстрых ссылок -->
     <div class="header-catalog">
       <div class="container header-catalog__inner">
-        <a class="catalog-button" href="#categories"><span></span>Каталог</a>
+        <a class="catalog-button" href="#offers"><span></span>Каталог</a>
         <nav class="quick-links" aria-label="Избранные подкатегории">
           <a href="#offers">Подъемники</a>
           <a href="#offers">Шиномонтажные станки</a>
@@ -98,7 +98,7 @@
       </form>
       <a class="ask-link" href="/contacts/">Ask a Question</a>
       <nav class="mobile-nav" aria-label="Разделы сайта">
-        <a href="#categories">Каталог</a>
+        <a href="#offers">Каталог</a>
         <a href="#offers">Лучшие предложения</a>
         <a href="#features">Преимущества</a>
         <a href="#video">Видео</a>
@@ -123,9 +123,10 @@
             <div class="hero-slide__content">
               <h1>Гайковерты</h1>
               <div class="hero-slide__actions">
-                <a class="button button--primary" href="#categories">Перейти в каталог</a>
+                <a class="button button--primary" href="#offers">Перейти в каталог</a>
               </div>
             </div>
+            <img class="hero-slide__image" src="images/hero-wrench.jpg" alt="Пневмогайковерт Nordberg">
           </article>
           <article class="hero-slide">
             <div class="hero-slide__content">
@@ -134,6 +135,7 @@
                 <a class="button button--primary" href="#offers">Перейти в каталог</a>
               </div>
             </div>
+            <img class="hero-slide__image" src="images/product-compressor-ncp100.jpg" alt="Компрессор Nordberg">
           </article>
           <div class="slider-controls" aria-label="Управление баннером">
             <button type="button" data-slide-prev aria-label="Предыдущий баннер">‹</button>
@@ -142,78 +144,40 @@
         </div>
 
         <nav class="hero-categories" aria-label="Популярные разделы">
-          <a href="#categories"><span></span>Окрасочное (Покрасочное) оборудование</a>
-          <a href="#categories"><span></span>Оборудование для кузовного ремонта</a>
-          <a href="#categories"><span></span>Шиномонтажное оборудование</a>
-          <a href="#categories"><span></span>Гаражное оборудование</a>
-          <a href="#categories"><span></span>Стенды развал-схождения</a>
-          <a href="#categories"><span></span>Инструменты для автосервиса</a>
-          <a href="#categories"><span></span>Мото оборудование</a>
-          <a href="#categories"><span></span>Весь каталог</a>
+          <a href="#offers"><img src="images/preview-paint.png" alt="">Окрасочное (Покрасочное) оборудование</a>
+          <a href="#offers"><img src="images/preview-body.png" alt="">Оборудование для кузовного ремонта</a>
+          <a href="#offers"><img src="images/preview-tire.png" alt="">Шиномонтажное оборудование</a>
+          <a href="#offers"><img src="images/preview-garage.png" alt="">Гаражное оборудование</a>
+          <a href="#offers"><img src="images/preview-alignment.png" alt="">Стенды развал-схождения</a>
+          <a href="#offers"><img src="images/preview-tools.png" alt="">Инструменты для автосервиса</a>
+          <a href="#offers"><img src="images/preview-moto.png" alt="">Мото оборудование</a>
+          <a href="#offers"><img src="images/category-two-post.png" alt="">Весь каталог</a>
         </nav>
-      </div>
-    </section>
-
-    <!-- Категории товаров -->
-    <section class="product-categories section-reveal" id="categories">
-      <div class="container">
-        <div class="section-head">
-          <span class="eyebrow">Каталог</span>
-          <h2>Категории товаров</h2>
-          <a href="/catalog/">Все категории</a>
-        </div>
-        <div class="category-layout">
-          <nav class="category-tabs" aria-label="Категории Nordberg">
-            <button class="is-active" type="button">Подъемники</button>
-            <button type="button">Шиномонтажное оборудование</button>
-            <button type="button">Гидравлическое оборудование</button>
-            <button type="button">Компрессоры</button>
-            <button type="button">Инструмент для автосервиса</button>
-          </nav>
-          <div class="category-grid">
-            <a class="category-card" href="/catalog/product/?cat_id=1990">
-              <img src="images/category-two-post.png" alt="Двухстоечные подъемники">
-              <span>Двухстоечные подъемники</span>
-            </a>
-            <a class="category-card" href="/catalog/?cat_id=2005">
-              <img src="images/category-tire.png" alt="Четырехстоечные подъемники">
-              <span>Четырехстоечные подъемники</span>
-            </a>
-            <a class="category-card" href="/catalog/?cat_id=1994">
-              <img src="images/category-scissor.png" alt="Ножничные подъемники">
-              <span>Ножничные подъемники</span>
-            </a>
-            <a class="category-card" href="/catalog/?cat_id=2002">
-              <img src="images/category-traverse.png" alt="Траверсы и канавные подъемники">
-              <span>Траверсы и канавные подъемники</span>
-            </a>
-          </div>
-        </div>
       </div>
     </section>
 
     <!-- Лучшие предложения -->
     <section class="offers section-reveal" id="offers">
       <div class="container">
-        <div class="section-head">
-          <span class="eyebrow">Подборка</span>
+        <div class="section-head section-head--figma">
           <h2>Лучшие предложения</h2>
-          <a href="/catalog/">В каталог</a>
+          <a class="section-arrow" href="/catalog/" aria-label="В каталог">›</a>
         </div>
         <div class="products-grid">
           <article class="product-card">
-            <div class="product-card__badges"><span>Хит</span></div>
+            <div class="product-card__badges"><span>Хит</span><span>Новинка</span></div>
             <button class="product-card__tool" type="button" aria-label="Добавить N4120A-4T в избранное">♡</button>
             <img src="images/product-lift-n4120a.jpg" alt="Nordberg N4120A-4T">
             <div class="product-card__body">
+              <strong class="product-price">199 080 ₽</strong>
               <h3>N4120A-4T</h3>
               <p>Двухстоечный подъемник 4 т</p>
-              <span class="stock stock--temp">Наличие уточняется</span>
+              <span class="stock">В наличии</span>
               <div class="product-card__bottom">
-                <strong>199 080 ₽</strong>
                 <button class="button button--small" type="button">В корзину</button>
+                <button class="compare-button" type="button" aria-label="В избранное">♡</button>
+                <button class="compare-button" type="button" aria-label="В сравнение">☷+</button>
               </div>
-              <button class="compare-button" type="button">Добавить в сравнение</button>
             </div>
           </article>
           <article class="product-card">
@@ -221,44 +185,139 @@
             <button class="product-card__tool" type="button" aria-label="Добавить N4121H-4T в избранное">♡</button>
             <img src="images/product-lift-n4121h.jpg" alt="Nordberg N4121H-4T">
             <div class="product-card__body">
+              <strong class="product-price">206 527 ₽</strong>
               <h3>N4121H-4T</h3>
               <p>Двухстоечный подъемник 380В</p>
-              <span class="stock stock--temp">Наличие уточняется</span>
+              <span class="stock">В наличии</span>
               <div class="product-card__bottom">
-                <strong>206 527 ₽</strong>
                 <button class="button button--small" type="button">В корзину</button>
+                <button class="compare-button" type="button" aria-label="В избранное">♡</button>
+                <button class="compare-button" type="button" aria-label="В сравнение">☷+</button>
               </div>
-              <button class="compare-button" type="button">Добавить в сравнение</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__badges"><span>Хит</span><span>Новинка</span></div>
+            <button class="product-card__tool" type="button" aria-label="Добавить N35100 в избранное">♡</button>
+            <img src="images/product-n3620.jpg" alt="Nordberg N35100">
+            <div class="product-card__body">
+              <strong class="product-price">924 662 ₽</strong>
+              <h3>N35100</h3>
+              <p>Гидравлический пресс</p>
+              <span class="stock">В наличии</span>
+              <div class="product-card__bottom">
+                <button class="button button--small" type="button">В корзину</button>
+                <button class="compare-button" type="button" aria-label="В избранное">♡</button>
+                <button class="compare-button" type="button" aria-label="В сравнение">☷+</button>
+              </div>
             </div>
           </article>
           <article class="product-card">
             <div class="product-card__badges"><span>Хит</span></div>
-            <button class="product-card__tool" type="button" aria-label="Добавить N35100 в избранное">♡</button>
-            <img src="images/product-press-n35100.jpg" alt="Nordberg N35100">
+            <button class="product-card__tool" type="button" aria-label="Добавить NC100/360 в избранное">♡</button>
+            <img src="images/product-compressor-nc100.jpg" alt="Nordberg NC100/360">
             <div class="product-card__body">
-              <h3>N35100</h3>
-              <p>Гидравлический пресс</p>
-              <span class="stock stock--temp">Наличие уточняется</span>
+              <strong class="product-price">62 172 ₽</strong>
+              <h3>NC100/360</h3>
+              <p>Поршневой ременный компрессор</p>
+              <span class="stock">В наличии</span>
               <div class="product-card__bottom">
-                <strong>924 662 ₽</strong>
                 <button class="button button--small" type="button">В корзину</button>
+                <button class="compare-button" type="button" aria-label="В избранное">♡</button>
+                <button class="compare-button" type="button" aria-label="В сравнение">☷+</button>
               </div>
-              <button class="compare-button" type="button">Добавить в сравнение</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__badges"><span>Хит</span></div>
+            <button class="product-card__tool" type="button" aria-label="Добавить NP18360 в избранное">♡</button>
+            <img src="images/hero-wrench.jpg" alt="Nordberg NP18360">
+            <div class="product-card__body">
+              <strong class="product-price">93 548 ₽</strong>
+              <h3>NP18360</h3>
+              <p>Пневмогайковерт ударный 1&quot;, 3600нм</p>
+              <span class="stock">В наличии</span>
+              <div class="product-card__bottom">
+                <button class="button button--small" type="button">В корзину</button>
+                <button class="compare-button" type="button" aria-label="В избранное">♡</button>
+                <button class="compare-button" type="button" aria-label="В сравнение">☷+</button>
+              </div>
             </div>
           </article>
           <article class="product-card">
             <div class="product-card__badges"><span>Новинка</span></div>
-            <button class="product-card__tool" type="button" aria-label="Добавить NC100/360 в избранное">♡</button>
-            <img src="images/product-compressor-nc100.jpg" alt="Nordberg NC100/360">
+            <button class="product-card__tool" type="button" aria-label="Добавить NP16130 в избранное">♡</button>
+            <img src="images/product-wrench-np16130.jpg" alt="Nordberg NP16130">
             <div class="product-card__body">
-              <h3>NC100/360</h3>
-              <p>Поршневой ременный компрессор</p>
-              <span class="stock stock--temp">Наличие уточняется</span>
+              <strong class="product-price">18 174 ₽</strong>
+              <h3>NP16130</h3>
+              <p>Пневмогайковерт ударный 3/4&quot;, 1300нм</p>
+              <span class="stock">В наличии</span>
               <div class="product-card__bottom">
-                <strong>62 172 ₽</strong>
                 <button class="button button--small" type="button">В корзину</button>
+                <button class="compare-button" type="button" aria-label="В избранное">♡</button>
+                <button class="compare-button" type="button" aria-label="В сравнение">☷+</button>
               </div>
-              <button class="compare-button" type="button">Добавить в сравнение</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <button class="product-card__tool" type="button" aria-label="Добавить NP14085 в избранное">♡</button>
+            <img src="images/product-wrench-np14085.jpg" alt="Nordberg NP14085">
+            <div class="product-card__body">
+              <strong class="product-price">10 010 ₽</strong>
+              <h3>NP14085</h3>
+              <p>Пневмогайковерт ударный 1/2&quot;, 850нм</p>
+              <span class="stock">В наличии</span>
+              <div class="product-card__bottom">
+                <button class="button button--small" type="button">В корзину</button>
+                <button class="compare-button" type="button" aria-label="В избранное">♡</button>
+                <button class="compare-button" type="button" aria-label="В сравнение">☷+</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <button class="product-card__tool" type="button" aria-label="Добавить N3520 в избранное">♡</button>
+            <img src="images/product-n3520.jpg" alt="Nordberg N3520">
+            <div class="product-card__body">
+              <strong class="product-price">32 778 ₽</strong>
+              <h3>N3520</h3>
+              <p>Гидравлический пресс 20 т</p>
+              <span class="stock">В наличии</span>
+              <div class="product-card__bottom">
+                <button class="button button--small" type="button">В корзину</button>
+                <button class="compare-button" type="button" aria-label="В избранное">♡</button>
+                <button class="compare-button" type="button" aria-label="В сравнение">☷+</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <button class="product-card__tool" type="button" aria-label="Добавить NCP300/690 в избранное">♡</button>
+            <img src="images/product-compressor-ncp100.jpg" alt="Nordberg NCP300/690">
+            <div class="product-card__body">
+              <strong class="product-price">131 390 ₽</strong>
+              <h3>NCP300/690</h3>
+              <p>Поршневой компрессор для автосервиса</p>
+              <span class="stock">В наличии</span>
+              <div class="product-card__bottom">
+                <button class="button button--small" type="button">В корзину</button>
+                <button class="compare-button" type="button" aria-label="В избранное">♡</button>
+                <button class="compare-button" type="button" aria-label="В сравнение">☷+</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <button class="product-card__tool" type="button" aria-label="Добавить NCE100 в избранное">♡</button>
+            <img src="images/product-compressor-nc100.jpg" alt="Nordberg NCE100">
+            <div class="product-card__body">
+              <strong class="product-price">47 574 ₽</strong>
+              <h3>NCE100/360</h3>
+              <p>Компрессор поршневой с ременной передачей</p>
+              <span class="stock">В наличии</span>
+              <div class="product-card__bottom">
+                <button class="button button--small" type="button">В корзину</button>
+                <button class="compare-button" type="button" aria-label="В избранное">♡</button>
+                <button class="compare-button" type="button" aria-label="В сравнение">☷+</button>
+              </div>
             </div>
           </article>
         </div>
@@ -406,6 +465,6 @@
     </div>
   </footer>
 
-  <script src="./js/script.js?v=20260709-figma2"></script>
+  <script src="./js/script.js?v=20260709-offers1"></script>
 </body>
 </html>
