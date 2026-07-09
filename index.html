@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nordberg - оборудование для станций технического обслуживания: подъемники, шиномонтажное, гидравлическое, гаражное оборудование и сервисная поддержка.">
+  <meta name="keywords" content="Nordberg, автосервисное оборудование, подъемники, шиномонтажное оборудование, гидравлическое оборудование, компрессоры">
+  <meta name="robots" content="index, follow">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="theme-color" content="#02aeef">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nordberg - оборудование для автосервиса">
+  <meta property="og:description" content="Главная страница каталога Nordberg с категориями, предложениями, видео, блогом и контактами.">
+  <meta property="og:image" content="images/product-lift-n4120a.jpg">
+  <meta property="og:locale" content="ru_RU">
+  <link rel="canonical" href="https://nordberg.ru/">
+  <link rel="icon" href="images/logo-nordberg.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Nordberg - оборудование для автосервиса</title>
+</head>
+<body>
+  <header class="site-header" data-header>
+    <!-- Верхняя строка шапки -->
+    <div class="header-top">
+      <div class="container header-top__inner">
+        <button class="location-button" type="button" aria-label="Выбрать город">
+          <span class="location-button__pin"></span>
+          Москва
+        </button>
+        <nav class="top-nav" aria-label="Меню первого уровня">
+          <a href="#categories">Каталог</a>
+          <a href="#offers">Лучшие предложения</a>
+          <a href="#about">О компании</a>
+          <a href="#blog">Блог</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+        <a class="header-phone" href="tel:+78005505350">8 (800) 550-53-50</a>
+      </div>
+    </div>
+
+    <!-- Основная строка шапки -->
+    <div class="header-main">
+      <div class="container header-main__inner">
+        <button class="icon-button header-burger" type="button" aria-label="Открыть меню" data-menu-open>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <a class="logo" href="/" aria-label="Nordberg - главная">
+          <img src="images/logo-nordberg.png" alt="Nordberg">
+        </a>
+        <form class="search-form" action="/search/" method="get">
+          <label class="visually-hidden" for="site-search">Поиск по сайту</label>
+          <input id="site-search" type="search" name="q" placeholder="Поиск по каталогу">
+          <button type="submit">Найти</button>
+        </form>
+        <div class="header-actions" aria-label="Пользовательские действия">
+          <button class="icon-button" type="button" aria-label="Сравнение">⇄</button>
+          <button class="icon-button" type="button" aria-label="Избранное">♡</button>
+          <button class="cart-button" type="button" aria-label="Корзина">
+            <span>0</span>
+            Корзина
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Строка каталога и быстрых ссылок -->
+    <div class="header-catalog">
+      <div class="container header-catalog__inner">
+        <a class="catalog-button" href="#categories">Каталог</a>
+        <nav class="quick-links" aria-label="Избранные подкатегории">
+          <a href="#offers">Двухстоечные подъемники</a>
+          <a href="#offers">Компрессоры</a>
+          <a href="#offers">Прессы</a>
+          <a href="#video">Видеообзоры</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Мобильное меню -->
+  <div class="mobile-panel" data-menu>
+    <div class="mobile-panel__backdrop" data-menu-close></div>
+    <aside class="mobile-panel__content" aria-label="Мобильное меню">
+      <div class="mobile-panel__head">
+        <img src="images/logo-nordberg.png" alt="Nordberg">
+        <button class="icon-button" type="button" aria-label="Закрыть меню" data-menu-close>×</button>
+      </div>
+      <form class="mobile-search" action="/search/" method="get">
+        <input type="search" name="q" placeholder="Поиск">
+        <button type="submit">Найти</button>
+      </form>
+      <a class="ask-link" href="/contacts/">Ask a Question</a>
+      <nav class="mobile-nav" aria-label="Разделы сайта">
+        <a href="#categories">Каталог</a>
+        <a href="#offers">Лучшие предложения</a>
+        <a href="#features">Преимущества</a>
+        <a href="#video">Видео</a>
+        <a href="#about">О компании</a>
+        <a href="#blog">Блог</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <div class="mobile-contacts">
+        <a href="tel:+78005505350">8 (800) 550-53-50</a>
+        <a href="mailto:info@nordberg.ru">info@nordberg.ru</a>
+        <span>Москва, Киевское ш., БП «Румянцево», корпус В, офис 615 «В»</span>
+      </div>
+    </aside>
+  </div>
+
+  <main>
+    <!-- Группа баннеров -->
+    <section class="hero section-reveal" aria-label="Главные баннеры">
+      <div class="container hero__grid">
+        <div class="hero-slider" data-slider>
+          <article class="hero-slide is-active">
+            <div class="hero-slide__content">
+              <span class="eyebrow">NORDBERG</span>
+              <h1>Надежный партнер для оснащения автосервиса</h1>
+              <p>Более 25 лет поддерживаем постоянное и надежное сотрудничество с автосервисами и промышленными предприятиями России, Белоруссии и Казахстана.</p>
+              <div class="hero-slide__actions">
+                <a class="button button--primary" href="#categories">Перейти в каталог</a>
+                <a class="button button--ghost" href="#about">О компании</a>
+              </div>
+            </div>
+            <img src="images/product-lift-n4120a.jpg" alt="Двухстоечный подъемник Nordberg N4120A-4T">
+          </article>
+          <article class="hero-slide">
+            <div class="hero-slide__content">
+              <span class="eyebrow">Сервисная служба</span>
+              <h2>Поддержка оборудования Nordberg на 100%</h2>
+              <p>Каталог включает подъемники, шиномонтажное, гидравлическое, гаражное оборудование, компрессоры и инструменты для автосервиса.</p>
+              <div class="hero-slide__actions">
+                <a class="button button--primary" href="#offers">Смотреть предложения</a>
+                <a class="button button--ghost" href="#contacts">Связаться</a>
+              </div>
+            </div>
+            <img src="images/product-compressor-ncp100.jpg" alt="Компрессор Nordberg NCP100">
+          </article>
+          <div class="slider-controls" aria-label="Управление баннером">
+            <button type="button" data-slide-prev aria-label="Предыдущий баннер">‹</button>
+            <button type="button" data-slide-next aria-label="Следующий баннер">›</button>
+          </div>
+        </div>
+
+        <div class="promo-stack">
+          <a class="promo-card promo-card--blue" href="#offers">
+            <span>Хит</span>
+            <strong>Подъемники 4 т</strong>
+            <small>для СТО и автотехцентров</small>
+          </a>
+          <a class="promo-card promo-card--dark" href="#video">
+            <span>Видео</span>
+            <strong>Обзоры оборудования</strong>
+            <small>демонстрация работы</small>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Категории товаров -->
+    <section class="product-categories section-reveal" id="categories">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Каталог</span>
+          <h2>Категории товаров</h2>
+          <a href="/catalog/">Все категории</a>
+        </div>
+        <div class="category-layout">
+          <nav class="category-tabs" aria-label="Категории Nordberg">
+            <button class="is-active" type="button">Подъемники</button>
+            <button type="button">Шиномонтажное оборудование</button>
+            <button type="button">Гидравлическое оборудование</button>
+            <button type="button">Компрессоры</button>
+            <button type="button">Инструмент для автосервиса</button>
+          </nav>
+          <div class="category-grid">
+            <a class="category-card" href="/catalog/product/?cat_id=1990">
+              <img src="images/category-two-post.png" alt="Двухстоечные подъемники">
+              <span>Двухстоечные подъемники</span>
+            </a>
+            <a class="category-card" href="/catalog/?cat_id=2005">
+              <img src="images/category-tire.png" alt="Четырехстоечные подъемники">
+              <span>Четырехстоечные подъемники</span>
+            </a>
+            <a class="category-card" href="/catalog/?cat_id=1994">
+              <img src="images/category-scissor.png" alt="Ножничные подъемники">
+              <span>Ножничные подъемники</span>
+            </a>
+            <a class="category-card" href="/catalog/?cat_id=2002">
+              <img src="images/category-traverse.png" alt="Траверсы и канавные подъемники">
+              <span>Траверсы и канавные подъемники</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Лучшие предложения -->
+    <section class="offers section-reveal" id="offers">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Подборка</span>
+          <h2>Лучшие предложения</h2>
+          <a href="/catalog/">В каталог</a>
+        </div>
+        <div class="products-grid">
+          <article class="product-card">
+            <div class="product-card__badges"><span>Хит</span></div>
+            <button class="product-card__tool" type="button" aria-label="Добавить N4120A-4T в избранное">♡</button>
+            <img src="images/product-lift-n4120a.jpg" alt="Nordberg N4120A-4T">
+            <div class="product-card__body">
+              <h3>N4120A-4T</h3>
+              <p>Двухстоечный подъемник 4 т</p>
+              <span class="stock stock--temp">Наличие уточняется</span>
+              <div class="product-card__bottom">
+                <strong>199 080 ₽</strong>
+                <button class="button button--small" type="button">В корзину</button>
+              </div>
+              <button class="compare-button" type="button">Добавить в сравнение</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__badges"><span>Новинка</span></div>
+            <button class="product-card__tool" type="button" aria-label="Добавить N4121H-4T в избранное">♡</button>
+            <img src="images/product-lift-n4121h.jpg" alt="Nordberg N4121H-4T">
+            <div class="product-card__body">
+              <h3>N4121H-4T</h3>
+              <p>Двухстоечный подъемник 380В</p>
+              <span class="stock stock--temp">Наличие уточняется</span>
+              <div class="product-card__bottom">
+                <strong>206 527 ₽</strong>
+                <button class="button button--small" type="button">В корзину</button>
+              </div>
+              <button class="compare-button" type="button">Добавить в сравнение</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__badges"><span>Хит</span></div>
+            <button class="product-card__tool" type="button" aria-label="Добавить N35100 в избранное">♡</button>
+            <img src="images/product-press-n35100.jpg" alt="Nordberg N35100">
+            <div class="product-card__body">
+              <h3>N35100</h3>
+              <p>Гидравлический пресс</p>
+              <span class="stock stock--temp">Наличие уточняется</span>
+              <div class="product-card__bottom">
+                <strong>924 662 ₽</strong>
+                <button class="button button--small" type="button">В корзину</button>
+              </div>
+              <button class="compare-button" type="button">Добавить в сравнение</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card__badges"><span>Новинка</span></div>
+            <button class="product-card__tool" type="button" aria-label="Добавить NC100/360 в избранное">♡</button>
+            <img src="images/product-compressor-nc100.jpg" alt="Nordberg NC100/360">
+            <div class="product-card__body">
+              <h3>NC100/360</h3>
+              <p>Поршневой ременный компрессор</p>
+              <span class="stock stock--temp">Наличие уточняется</span>
+              <div class="product-card__bottom">
+                <strong>62 172 ₽</strong>
+                <button class="button button--small" type="button">В корзину</button>
+              </div>
+              <button class="compare-button" type="button">Добавить в сравнение</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Фичеры -->
+    <section class="features section-reveal" id="features">
+      <div class="container features__grid">
+        <div class="feature-item">
+          <span>25+</span>
+          <strong>лет работы</strong>
+          <p>постоянное сотрудничество с автосервисами и промышленными предприятиями</p>
+        </div>
+        <div class="feature-item">
+          <span>2 000</span>
+          <strong>клиентов</strong>
+          <p>широкий ассортимент оборудования, аксессуаров и запчастей</p>
+        </div>
+        <div class="feature-item">
+          <span>870+</span>
+          <strong>партнеров</strong>
+          <p>сервисная поддержка и дилерская сеть в регионах</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Узкий баннер -->
+    <section class="narrow-banner section-reveal">
+      <div class="container narrow-banner__inner">
+        <div>
+          <span class="eyebrow">Профессиональная линейка</span>
+          <h2>Оснащайте рабочие зоны комплексно: подъем, диагностика, компрессоры и инструмент.</h2>
+        </div>
+        <a class="button button--light" href="#contacts">Получить консультацию</a>
+      </div>
+    </section>
+
+    <!-- Видео -->
+    <section class="video-section section-reveal" id="video">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Видео</span>
+          <h2>Видеообзоры оборудования</h2>
+          <a href="https://www.youtube.com/c/AUTOSERVICEVIDEO" target="_blank" rel="noopener">YouTube</a>
+        </div>
+        <div class="video-grid">
+          <a class="video-main" href="https://www.youtube.com/c/AUTOSERVICEVIDEO" target="_blank" rel="noopener">
+            <span class="play-button"></span>
+            <img src="images/product-lift-n4121h.jpg" alt="Видеообзор подъемника Nordberg">
+            <strong>Подробные обзоры и демонстрация оборудования Nordberg</strong>
+          </a>
+          <div class="video-list">
+            <a href="https://www.youtube.com/c/AUTOSERVICEVIDEO" target="_blank" rel="noopener">Обзор канавного подъемника NORDBERG N501T</a>
+            <a href="https://www.youtube.com/c/AUTOSERVICEVIDEO" target="_blank" rel="noopener">Аккумуляторный гайковерт NORDBERG NE810K</a>
+            <a href="https://www.youtube.com/c/AUTOSERVICEVIDEO" target="_blank" rel="noopener">Промышленный пылесос NORDBERG NV83</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- О компании -->
+    <section class="about section-reveal" id="about">
+      <div class="container about__grid">
+        <div class="about__text">
+          <span class="eyebrow">О компании</span>
+          <h2>Nordberg - один из лидеров рынка оборудования для автотехцентров</h2>
+          <p>Компания Nordberg одна из первых в России всерьез взялась за насыщение рынка качественным оборудованием для автотехцентров. На данный момент Nordberg - это бренд автосервисного оборудования, который является одним из лидеров в своей области.</p>
+          <p>Продукция производится на заводах Китая и Тайваня, имеет международные и ЕАС сертификаты качества. Регулярные улучшения повышают надежность, производительность и эргономичность оборудования.</p>
+          <a class="button button--primary" href="/about/">Подробнее</a>
+        </div>
+        <div class="about__media">
+          <img src="images/product-compressor-ncp100.jpg" alt="Оборудование Nordberg">
+        </div>
+      </div>
+    </section>
+
+    <!-- Блог -->
+    <section class="blog section-reveal" id="blog">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Блог</span>
+          <h2>Новости и материалы</h2>
+          <a href="/news/">Все новости</a>
+        </div>
+        <div class="blog-grid">
+          <article class="blog-card">
+            <img src="images/product-compressor-nc100.jpg" alt="Новая линейка компрессоров Nordberg">
+            <div>
+              <time datetime="2022-03-01">01.03.2022</time>
+              <h3>Новинки: компрессоры поршневые с ременной передачей серии NCP</h3>
+              <a href="/news/">Читать</a>
+            </div>
+          </article>
+          <article class="blog-card">
+            <img src="images/product-lift-n4121h.jpg" alt="Видеообзор Nordberg">
+            <div>
+              <time datetime="2022-03-02">02.03.2022</time>
+              <h3>Видео: обзор ямного канавного подъемника NORDBERG N501T</h3>
+              <a href="/news/">Читать</a>
+            </div>
+          </article>
+          <article class="blog-card">
+            <img src="images/product-press-n3612.jpg" alt="Гидравлическое оборудование Nordberg">
+            <div>
+              <time datetime="2022-02-07">07.02.2022</time>
+              <h3>Новинки: профессиональный аккумуляторный инструмент NORDBERG</h3>
+              <a href="/news/">Читать</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Подвал -->
+  <footer class="site-footer" id="contacts">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="images/logo-nordberg.png" alt="Nordberg">
+        <p>Оборудование для станций технического обслуживания.</p>
+        <div class="social-links" aria-label="Социальные сети">
+          <a href="https://vk.com/nordbergru" target="_blank" rel="noopener">VK</a>
+          <a href="https://www.youtube.com/c/AUTOSERVICEVIDEO" target="_blank" rel="noopener">YT</a>
+          <a href="https://t.me/nordbergru" target="_blank" rel="noopener">TG</a>
+        </div>
+      </div>
+      <nav class="footer-nav" aria-label="Нижнее меню">
+        <a href="/catalog/">Каталог</a>
+        <a href="/service/">Сервисная служба</a>
+        <a href="/delivery/">Доставка</a>
+        <a href="/about/">О компании</a>
+        <a href="/contacts/">Контакты</a>
+      </nav>
+      <div class="footer-contacts">
+        <a href="tel:+78005505350">8 (800) 550-53-50</a>
+        <a href="mailto:info@nordberg.ru">info@nordberg.ru</a>
+        <address>Москва, Киевское ш., БП «Румянцево», корпус В, офис 615 «В»</address>
+      </div>
+      <div class="footer-meta">
+        <a href="https://redstar.agency/" target="_blank" rel="noopener">Редстар</a>
+        <a href="/privacy/">Конфиденциальность</a>
+        <a href="/offer/">Оферта</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

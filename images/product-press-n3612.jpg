@@ -1,0 +1,960 @@
+
+<!DOCTYPE html>
+<html lang="ru" class="homepage-html">
+<head>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover", minimal-ui>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/bitrix/templates/nordberg/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/bitrix/templates/nordberg/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/bitrix/templates/nordberg/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/bitrix/templates/nordberg/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/bitrix/templates/nordberg/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/bitrix/templates/nordberg/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/bitrix/templates/nordberg/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/bitrix/templates/nordberg/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/bitrix/templates/nordberg/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/bitrix/templates/nordberg/img/favicon/android-icon-192x192.png">
+
+    
+    <link rel="manifest" href="/bitrix/templates/nordberg/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="nordberg, оборудование, автотехцентры" />
+<meta name="description" content="Компания Nordberg, одна из первых в России, всерьез взялась за насыщение рынка качественным оборудованием для автотехцентров, разработанным в Европе." />
+<link href="/bitrix/cache/css/s1/nordberg/template_5abbaaabd41b85a98f073d1fe75796be/template_5abbaaabd41b85a98f073d1fe75796be_v1.css?17822120738716" type="text/css" rel="stylesheet" data-template-style="true"/>
+<script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_NO_DATA":"- Нет данных -","JS_CORE_WINDOW_CLOSE":"Закрыть","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Отменить","JS_CORE_WINDOW_CONTINUE":"Продолжить","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Войти","JS_CORE_IMAGE_FULL":"Полный размер"});</script>
+
+<script src="/bitrix/js/main/core/core.min.js?1774529207245644"></script>
+
+<script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","\/bitrix\/js\/main\/core\/core_promise.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/loadext\/loadext.js","\/bitrix\/js\/main\/loadext\/extension.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/core\/core.js","\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"BITRIX_SM","SERVER_TZ_OFFSET":"10800","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1783583038,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"b3cd2b88b23144a5dabd48f06736324e"});</script>
+
+
+<script src="/bitrix/js/main/ajax.js?176519009235509"></script>
+<script>BX.setJSList(["\/bitrix\/templates\/nordberg\/js\/jquery-1.10.2.min.js","\/bitrix\/templates\/nordberg\/js\/jquery.fancybox.pack.js"]);</script>
+<script>BX.setCSSList(["\/bitrix\/templates\/.default\/ajax\/ajax.css","\/bitrix\/templates\/nordberg\/css\/jquery.fancybox.css","\/bitrix\/components\/niges\/cookiesaccept\/templates\/.default\/style.css"]);</script>
+
+            <script type="text/javascript">
+                (function (d, w, c) {(w[c] = w[c] || []).push(function() {
+                    try {
+                        w.yaCounter29110970 = new Ya.Metrika({'id':'29110970','webvisor':'true','clickmap':'true','trackLinks':'true','accurateTrackBounce':'true','trackHash':'true','ut':'false'});
+                    } 
+                    catch(e) {}});
+                    var n=d.getElementsByTagName("script")[0],s = d.createElement("script"),f=function () { n.parentNode.insertBefore(s, n); };s.type="text/javascript";s.async=true;s.src=(d.location.protocol=="https:"?"https:":"http:")+"//mc.yandex.ru/metrika/watch.js";if(w.opera=="[object Opera]"){d.addEventListener("DOMContentLoaded",f,false);}else{f();}})(document,window,"yandex_metrika_callbacks");
+            </script>
+<script type="text/javascript">
+if (window == window.top) {
+	document.addEventListener("DOMContentLoaded", function() {
+		var div = document.createElement("div"); div.innerHTML = ' <div id="nca-cookiesaccept-line" class="nca-cookiesaccept-line style-2 "> <div id="nca-nca-position-left"id="nca-bar" class="nca-bar nca-style- nca-animation-none nca-position-left"> <div class="nca-cookiesaccept-line-text">Мы используем файлы cookies для вашего удобства. Продолжая пользоваться сайтом, вы соглашаетесь с политикой использования cookies. <a href="/upload/personal.pdf" target="_blanc">Подробнее</a></div> <div><button type="button" id="nca-cookiesaccept-line-accept-btn" onclick="ncaCookieAcceptBtn()" >Принять</button></div> </div> </div> ';
+		document.body.appendChild(div);
+	});
+}
+function ncaCookieAcceptBtn(){ 
+	var alertWindow = document.getElementById("nca-cookiesaccept-line"); alertWindow.remove();
+	var cookie_string = "NCA_COOKIE_ACCEPT_1" + "=" + escape("Y"); 
+	var expires = new Date((new Date).getTime() + (1000 * 60 * 60 * 24 * 1500)); 
+	cookie_string += "; expires=" + expires.toUTCString(); 
+	cookie_string += "; path=" + escape ("/"); 
+	document.cookie = cookie_string; 	
+}
+function ncaCookieAcceptCheck(){
+	var closeCookieValue = "N"; 
+	var value = "; " + document.cookie;
+	var parts = value.split("; " + "NCA_COOKIE_ACCEPT_1" + "=");
+	if (parts.length == 2) { 
+		closeCookieValue = parts.pop().split(";").shift(); 
+	}
+	if(closeCookieValue != "Y") { 
+		/*document.head.insertAdjacentHTML("beforeend", "<style>#nca-cookiesaccept-line {display:flex}</style>")*/
+	} else { 
+		document.head.insertAdjacentHTML("beforeend", "<style>#nca-cookiesaccept-line {display:none}</style>")
+	}
+}
+ncaCookieAcceptCheck();
+</script>
+ <style> .nca-cookiesaccept-line { box-sizing: border-box !important; margin: 0 !important; border: none !important; width: 100% !important; min-height: 10px !important; max-height: 250px !important; display: block; clear: both !important; padding: 12px !important; position: fixed; bottom: 0px !important; opacity: 1; transform: translateY(0%); z-index: 99999; } .nca-cookiesaccept-line > div { display: flex; align-items: center; } .nca-cookiesaccept-line > div > div { padding-left: 5%; padding-right: 5%; } .nca-cookiesaccept-line a { color: inherit; text-decoration:underline; } @media screen and (max-width:767px) { .nca-cookiesaccept-line > div > div { padding-left: 1%; padding-right: 1%; } } </style> 
+
+
+
+<script  src="/bitrix/cache/js/s1/nordberg/template_cb4354c433df2321311419a97e04e301/template_cb4354c433df2321311419a97e04e301_v1.js?1779966735116849"></script>
+
+
+    <link type="text/css" rel="stylesheet" href="/bitrix/templates/nordberg/css/default.css"><!-- 1800+ -->
+    <link type="text/css" rel="stylesheet" media="all and (min-width:1601px) and (max-width:1800px)" href="/bitrix/templates/nordberg/css/xlarge.css">
+    <link type="text/css" rel="stylesheet" media="all and (min-width:1401px) and (max-width:1600px)" href="/bitrix/templates/nordberg/css/large.css">
+    <link type="text/css" rel="stylesheet" media="all and (min-width:1281px) and (max-width:1400px)" href="/bitrix/templates/nordberg/css/xmedium.css">
+    <link type="text/css" rel="stylesheet" media="all and (min-width:1131px) and (max-width:1280px)" href="/bitrix/templates/nordberg/css/medium.css"><!-- medium.css -->
+    <link type="text/css" rel="stylesheet" media="all and (min-width:1025px) and (max-width:1130px)" href="/bitrix/templates/nordberg/css/small.css">
+    <link type="text/css" rel="stylesheet" media="all and (min-width:768px) and (max-width:1024px)" href="/bitrix/templates/nordberg/css/tablet.css"><!-- tablet -->
+    <link type="text/css" rel="stylesheet" media="all and (max-width:767px)" href="/bitrix/templates/nordberg/css/phone.css"><!-- phone portrait -->
+    <link type="text/css" rel="stylesheet" media="all and (max-width:900px) and (orientation:landscape)" href="/bitrix/templates/nordberg/css/phone-landscape.css"><!-- phone landscape -->
+    
+
+
+    <script src="/bitrix/templates/nordberg/js/bundle.js"></script>
+    <script src="/bitrix/templates/nordberg/js/site.js"></script>
+    
+    
+
+    <title>Nordberg - Оборудование для станций технического обслуживания</title>
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7CC8L1RXHT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7CC8L1RXHT');
+</script>
+    
+    
+</head>
+<body class="index-page">
+
+<div id="panel"></div>
+
+<div class="header">
+	
+    <div class="menu">
+        <a href="javascript://" class="menu-trigger"><span>МЕНЮ</span></a>
+    </div>
+
+    <div class="lang">
+        <div class="current-block">
+            <span class="current">RU</span>
+            <a href="javascript://" class="lang-trigger"></a>
+        </div>
+        <ul>
+            <li><a href="javascript://">EN</a></li>
+        </ul>
+
+    </div>
+
+
+	<div class="logo-mi">
+
+		<a href="https://master-instrument.ru/?utm_source=nordberg.ru&utm_medium=site&utm_campaign=referal" target="_blank" style="color: #009bca;">Отдел розничных продаж
+
+			<div style="width: 194px;height: 29px; background: url('/images/logo_mi5.png') no-repeat; float: right;"></div>
+
+</a>
+
+</div>
+
+
+	
+</div>
+
+
+<div class="navigation">
+
+    <a href="javascript://" class="close"><span>МЕНЮ</span></a>
+
+    <div class="lang">
+        <div class="current-block">
+            <span class="current">RU</span>
+            <a href="javascript://" class="lang-trigger"></a>
+        </div>
+        <ul>
+            <li><a href="javascript://">EN</a></li>
+        </ul>
+
+    </div>
+
+    <a href="javascript://" class="navigation-search-button"></a>
+
+    <div class="search-form">
+
+
+
+        <form action="/search/" method="get">
+            <input type="text" name="q" placeholder="Поиск">
+            <input type="submit" value="">
+        </form>
+    </div>
+
+    <ul>
+        <li>
+            <a href="/catalog/">Каталог</a>
+                            <span class="toggle"><i></i></span>
+
+                <ul>
+                    <li><a href="/catalog/?cat_id=1988">Подъемники</a></li><li><a href="/catalog/?cat_id=2028">Шиномонтажное оборудование</a></li><li><a href="/catalog/?cat_id=2023">Стенды развал-схождения</a></li><li><a href="/catalog/?cat_id=1530">Гидравлическое оборудование</a></li><li><a href="/catalog/?cat_id=1854">Оборудование для замены масла и тех жидкостей</a></li><li><a href="/catalog/?cat_id=1421">Гаражное оборудование</a></li><li><a href="/catalog/?cat_id=1805">Компрессоры воздушные и пневмолинии</a></li><li><a href="/catalog/?cat_id=1936">Пневмоинструмент</a></li><li><a href="/catalog/?cat_id=1563">Заправка кондиционеров автомобиля</a></li><li><a href="/catalog/?cat_id=1831">Мебель для автосервиса</a></li><li><a href="/catalog/?cat_id=1543">Диагностическое оборудование</a></li><li><a href="/catalog/?cat_id=1885">Оборудование для кузовного ремонта</a></li><li><a href="/catalog/?cat_id=2011">Покрасочное оборудование</a></li><li><a href="/catalog/?cat_id=1580">Инструмент для автосервиса</a></li><li><a href="/catalog/?cat_id=1924">Оборудование для склада</a></li>                </ul>
+            
+        </li>
+        <li><a href="/news/">Новости</a></li>
+        <li>
+            <a href="/services/">Сервисная служба</a>
+            
+        </li>
+        <li>
+            <a href="/delivery/">Доставка</a>
+        </li>
+        
+        <li>
+            <a href="/about/">О компании</a>
+            <span class="toggle"><i></i></span>
+
+            <ul>
+                <li><a href="/dealers/">Стать дилером</a></li>
+            </ul>
+
+        </li>
+        
+        <li><a href="/dealer/">Где купить</a></li>
+        
+        <li><a href="/contacts/">Контакты</a></li>
+    </ul>
+
+    <div class="social">
+        <a href="https://vk.com/nordbergru" class="vk" target="_blank"></a>
+                                <a href="https://www.youtube.com/nordbergru/" class="gp" target="_blank"></a>
+<a href="https://t.me/nordbergru" class="tg-m" target="_blank"></a>
+
+    </div>
+
+    <a href="http://line-corp.ru" target="_blank" class="line-copyright"></a>
+    <a href="http://line-corp.ru" target="_blank" class="line-copyright small"></a>
+
+</div>
+    <div class="side-navigation">
+        <ul>
+            <li class="active"><a href="#intro" data-page="intro"></a></li>
+            <li><a href="#catalog" data-page="catalog"></a></li>
+            <li><a href="#about" data-page="about"></a></li>
+            <li><a href="#contacts" data-page="contacts"></a></li>
+        </ul>
+        <div class="mouse"></div>
+    </div>
+
+<div class="homepage-intro scroll-section" id="intro" data-section-name="intro">
+	<div class="homepage-video">
+	</div>
+	<div class="divider1">
+	</div>
+	<div class="divider2">
+	</div>
+	<div class="container">
+		<div class="screen-middle">
+			<div class="cell">
+				<h1 class="title">
+				NORDBERG </h1>
+				<div class="slogan">
+					 НАДЁЖНЫЙ ПАРТНЕР
+				</div>
+				<div class="text">
+					 Более 25 лет работы поддерживаем<br>
+					 постоянное и надежное сотрудничество со<br>
+					 многими автосервисами и промышленными<br>
+					 предприятиями России, Белоруссии и Казахстана. <a href="javascript://" class="pause-button"></a>
+				</div>
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="col">
+				<div class="block">
+ <strong>Широкий ассортимент</strong>
+					<p>
+						 Большой выбор оборудования,<br>
+						 аксессуаров и запчастей
+					</p>
+				</div>
+			</div>
+			<div class="col">
+				 <!--   <div class="block">
+                    <strong>Бесплатная доставка по Москве</strong>
+                    <p><a href="/delivery/">Бесплатная доставка по Москве<br> в 1 зону при покупке от 60 000 руб</a></p>
+                </div>-->
+			</div>
+			<div class="col">
+				<div class="block">
+ <strong>Сервисная служба</strong>
+					<p>
+						 Мы уверены в качестве продукции<br>
+						 NORDBERG на 100%
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ <br>
+
+<div class="homepage-catalog scroll-section" id="catalog" data-section-name="catalog">
+    <div class="divider1"></div>
+
+    <div class="catalog">
+        <div class="left">
+
+            <div class="categories-container">
+                <h1>Каталог</h1>
+
+                <div class="categories-jsp">
+                <ul>
+                    <li class="active"><a href="javascript://" class="catalog-trigger" data-category-id="1988" data-iblock-id="2">Подъемники</a></li><li class=""><a href="javascript://" class="catalog-trigger" data-category-id="2028" data-iblock-id="2">Шиномонтажное оборудование</a></li><li class=""><a href="javascript://" class="catalog-trigger" data-category-id="2023" data-iblock-id="2">Стенды развал-схождения</a></li><li class=""><a href="javascript://" class="catalog-trigger" data-category-id="1530" data-iblock-id="2">Гидравлическое оборудование</a></li><li class=""><a href="javascript://" class="catalog-trigger" data-category-id="1854" data-iblock-id="2">Оборудование для замены масла и тех жидкостей</a></li><li class=""><a href="javascript://" class="catalog-trigger" data-category-id="1421" data-iblock-id="2">Гаражное оборудование</a></li><li class=""><a href="javascript://" class="catalog-trigger" data-category-id="1805" data-iblock-id="2">Компрессоры воздушные и пневмолинии</a></li><li class=""><a href="javascript://" class="catalog-trigger" data-category-id="1936" data-iblock-id="2">Пневмоинструмент</a></li><li class=""><a href="javascript://" class="catalog-trigger" data-category-id="1563" data-iblock-id="2">Заправка кондиционеров автомобиля</a></li><li class=""><a href="javascript://" class="catalog-trigger" data-category-id="1831" data-iblock-id="2">Мебель для автосервиса</a></li><li class=""><a href="javascript://" class="catalog-trigger" data-category-id="1543" data-iblock-id="2">Диагностическое оборудование</a></li><li class=""><a href="javascript://" class="catalog-trigger" data-category-id="1885" data-iblock-id="2">Оборудование для кузовного ремонта</a></li><li class=""><a href="javascript://" class="catalog-trigger" data-category-id="2011" data-iblock-id="2">Покрасочное оборудование</a></li><li class=""><a href="javascript://" class="catalog-trigger" data-category-id="1580" data-iblock-id="2">Инструмент для автосервиса</a></li><li class=""><a href="javascript://" class="catalog-trigger" data-category-id="1924" data-iblock-id="2">Оборудование для склада</a></li>                </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="right">
+
+            <a href="javascript://" class="category-go-back hidepc"
+               data-parent-id="">Назад</a>
+
+            <div class="categories">
+                <h2 class="category-title">Подъемники</h2>
+                
+<div class="category-item" data-section-id="1989" data-has-children="Y" data-iblock-id="2">
+    <div class="image" style="background-image:url(/upload/iblock/b67/1000000100.png);"></div>
+    <div class="title">Двухстоечные подъемники</div>
+</div>
+<div class="category-item" data-section-id="2005" data-has-children="Y" data-iblock-id="2">
+    <div class="image" style="background-image:url(/upload/iblock/146/1000000200.png);"></div>
+    <div class="title">Четырехстоечные подъемники</div>
+</div>
+<div class="category-item" data-section-id="1994" data-has-children="Y" data-iblock-id="2">
+    <div class="image" style="background-image:url(/upload/iblock/6bf/1000000300.png);"></div>
+    <div class="title">Ножничные подъемники</div>
+</div>
+<div class="category-item" data-section-id="2002" data-has-children="Y" data-iblock-id="2">
+    <div class="image" style="background-image:url(/upload/iblock/1c0/1000000400.png);"></div>
+    <div class="title">Траверсы и подъемники канавные (ямные домкраты)</div>
+</div>
+<div class="category-item" data-section-id="1998" data-has-children="Y" data-iblock-id="2">
+    <div class="image" style="background-image:url(/upload/iblock/9b0/1000000600.png);"></div>
+    <div class="title">Подъемники для мототехники</div>
+</div>            </div>
+        </div>
+        <div class="categories-shader-top"></div>
+        <div class="categories-shader"></div>
+    </div>
+
+    
+</div><div class="homepage-about scroll-section" id="about" data-section-name="about">
+	<div class="divider1">
+	</div>
+	<div class="divider2">
+	</div>
+	<div class="container">
+		<h2>О компании</h2>
+		<div class="info">
+			<div class="col col-statistics">
+				<div class="stat">
+ <strong>16 лет</strong>
+					<p>
+						 надежной работы
+					</p>
+				</div>
+				<div class="stat">
+ <strong>2 000</strong>
+					<p>
+						 постоянных клиентов
+					</p>
+				</div>
+				<div class="stat">
+ <strong>&gt; 870</strong>
+					<p>
+						 постоянных партнёров
+					</p>
+				</div>
+				 			</div>
+			<div class="col col-about">
+				<p>
+					 Компания Nordberg одна из первых в России всерьез взялась за насыщение рынка качественным оборудованием для автотехцентров. На данный момент Nordberg — это бренд автосервисного оборудования, который является одним из лидеров в своей области.
+				</p>
+				<p>
+					 Следуя требованиям рынка и глобализации производственных процессов, большую часть продукции производит на заводах Китая, Тайваня также, как и многие производители гаражного оборудования. Продукция имеет международные и ЕАС сертификаты качества. Регулярно вносимые улучшения повышают надежность, производительность и эргономичность оборудования.
+				</p>
+			</div>
+		</div>
+		<div class="youtube-subscribe">
+			<div class="social">
+ <a href="https://vk.com/nordbergru" class="vk" target="_blank"></a>
+				 <a href="https://www.youtube.com/c/AUTOSERVICEVIDEO" class="yt" target="_blank"></a>
+				 <a href="https://t.me/nordbergru" class="tg" target="_blank"></a>
+			</div>
+		</div>
+		 	</div>
+	<div class="map-screen">
+ <a href="javascript://" class="map-toggle"></a>
+		<div id="map">
+		</div>
+	</div>
+	<div class="map">
+	</div>
+</div>
+ <br><div class="homepage-contacts scroll-section" id="contacts" data-section-name="contacts">
+
+    <div id="map_contacts"></div>
+
+    <div class="divider1"></div>
+    <div class="divider2"></div>
+
+    <h2>Контакты</h2>
+
+    <div class="contacts">
+
+        <div class="block">
+            <div class="title">Адрес</div>
+            <div class="text">Москва, Киевское ш.,<br>БП «Румянцево», корпус В,<br>офис 615 «В»</div>
+        </div>
+
+        <div class="block">
+            <div class="title">Телефон</div>
+            <div class="text"><a href="tel:+78005505350">8 (800) 550-53-50</a></div>
+            <div class="small">(по России бесплатно)</div>
+        </div>
+
+        <div class="block">
+            <div class="title">E-mail</div>
+            <div class="text"><a href="mailto:info@nordberg.ru">info@nordberg.ru</a></div>
+        </div>
+
+    </div>
+
+</div>
+
+    <script>
+        window.dealers = [{"name":null,"city":"\u0410\u043b\u043c\u0430\u0442\u044b","coordinates":["43.262877","76.87086"],"service":"1","description":"\u0422\u0435\u0441\u0442\u043e\u0432\u043e\u0435 \u043e<i>\u043f\u0438\u0441\u0430<\/i>\u043d\u0438\u0435<br>\r\n\u0434<b>\u0438\u043b\u0435\u0440<\/b>\u0430"},{"name":null,"city":"\u0410\u043d\u0433\u0430\u0440\u0441\u043a","coordinates":["52.544358","103.888240"],"service":"2","description":""},{"name":null,"city":"\u0410\u0440\u0445\u0430\u043d\u0433\u0435\u043b\u044c\u0441\u043a","coordinates":["64.532507","40.596189"],"service":"1","description":""},{"name":null,"city":"\u0410\u0441\u0442\u0430\u043d\u0430","coordinates":["51.170723","71.466434"],"service":"2","description":""},{"name":null,"city":"\u0411\u0430\u0440\u043d\u0430\u0443\u043b","coordinates":["53.330822","83.664684"],"service":"2","description":""},{"name":null,"city":"\u0411\u0435\u043b\u0433\u043e\u0440\u043e\u0434","coordinates":["50.580594","36.631918"],"service":"1","description":""},{"name":null,"city":"\u0411\u0438\u0439\u0441\u043a","coordinates":["52.526451","85.241461"],"service":"2","description":""},{"name":null,"city":"\u0411\u043b\u0430\u0433\u043e\u0432\u0435\u0449\u0435\u043d\u0441\u043a","coordinates":["50.290658","127.527173"],"service":"2","description":""},{"name":null,"city":"\u0411\u0440\u0430\u0442\u0441\u043a","coordinates":["56.141147","101.598605"],"service":"2","description":""},{"name":null,"city":"\u0412\u0435\u043b\u0438\u043a\u0438\u0435 \u041b\u0443\u043a\u0438","coordinates":["56.356410","30.514960"],"service":"1","description":""},{"name":null,"city":"\u0412\u043b\u0430\u0434\u0438\u0432\u043e\u0441\u0442\u043e\u043a","coordinates":["43.137361","131.951529"],"service":"2","description":""},{"name":null,"city":"\u0412\u043b\u0430\u0434\u0438\u043a\u0430\u0432\u043a\u0430\u0437","coordinates":["43.012412","44.666072"],"service":"1","description":""},{"name":null,"city":"\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440","coordinates":["56.154246","40.422025"],"service":"1","description":""},{"name":null,"city":"\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434","coordinates":["48.695544","44.466373"],"service":"2","description":""},{"name":null,"city":"\u0412\u043e\u043b\u043e\u0433\u0434\u0430","coordinates":["59.127443","37.906902"],"service":"2","description":""},{"name":null,"city":"\u0412\u043e\u0440\u043e\u043d\u0435\u0436","coordinates":["51.681804","39.171227"],"service":"2","description":""},{"name":null,"city":"\u0413\u0440\u043e\u0437\u043d\u044b\u0439","coordinates":["43.340173","45.658837"],"service":"2","description":""},{"name":null,"city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","coordinates":["56.772137","60.542947"],"service":"2","description":""},{"name":null,"city":"\u0418\u0432\u0430\u043d\u043e\u0432\u043e","coordinates":["56.960569","40.975744"],"service":"2","description":""},{"name":null,"city":"\u0418\u0436\u0435\u0432\u0441\u043a","coordinates":["56.834745","53.194474"],"service":"2","description":""},{"name":null,"city":"\u0418\u0440\u043a\u0443\u0442\u0441\u043a","coordinates":["52.294336","104.294539"],"service":"1","description":""},{"name":null,"city":"\u041a\u0430\u0437\u0430\u043d\u044c","coordinates":["55.741894","49.133916"],"service":"1","description":""},{"name":null,"city":"\u041a\u0430\u043b\u0443\u0433\u0430","coordinates":["54.521346","36.283605"],"service":"2","description":""},{"name":null,"city":"\u041a\u0430\u0440\u0430\u0433\u0430\u043d\u0434\u0430","coordinates":["49.777101","73.115237"],"service":"2","description":""},{"name":null,"city":"\u041a\u0435\u043c\u0435\u0440\u043e\u0432\u043e","coordinates":["55.335617","86.089623"],"service":"1","description":""},{"name":null,"city":"\u041a\u0438\u0440\u043e\u0432","coordinates":["58.56435","49.598924"],"service":"1","description":""},{"name":null,"city":"\u041a\u043e\u0441\u0442\u0430\u043d\u0430\u0439","coordinates":["53.17838","63.585882"],"service":"2","description":""},{"name":null,"city":"\u041a\u043e\u0441\u0442\u0440\u043e\u043c\u0430","coordinates":["57.74569","40.978942"],"service":"2","description":""},{"name":null,"city":"\u041a\u043e\u0442\u043b\u0430\u0441","coordinates":["61.255720","46.632298"],"service":"1","description":""},{"name":null,"city":"\u041a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u0440","coordinates":["45.033247","39.026005"],"service":"2","description":""},{"name":null,"city":"\u041a\u0443\u0440\u0441\u043a","coordinates":["51.756890","36.137536"],"service":"1","description":""},{"name":null,"city":"\u041c\u0430\u0445\u0430\u0447\u043a\u0430\u043b\u0430","coordinates":["42.973001","47.514869"],"service":"2","description":""},{"name":null,"city":"\u041c\u0438\u043d\u0441\u043a","coordinates":["53.94972","27.68084"],"service":"1","description":""},{"name":null,"city":"\u041c\u043e\u0441\u043a\u0432\u0430","coordinates":["55.634622","37.438768"],"service":"1","description":""},{"name":null,"city":"\u041c\u0443\u0440\u043c\u0430\u043d\u0441\u043a","coordinates":["68.979814","33.091941"],"service":"2","description":""},{"name":null,"city":"\u041d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u044b\u0435 \u0427\u0435\u043b\u043d\u044b","coordinates":["55.719333","52.410642"],"service":"2","description":""},{"name":null,"city":"\u041d\u0430\u043b\u044c\u0447\u0438\u043a","coordinates":["43.495507","43.604763"],"service":"2","description":""},{"name":null,"city":"\u041d\u0435\u0444\u0442\u0435\u043a\u0430\u043c\u0441\u043a","coordinates":["56.099833","54.279038"],"service":"2","description":""},{"name":null,"city":"\u041d\u0438\u0436\u043d\u0438\u0439 \u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434","coordinates":["56.341750","43.815614"],"service":"1","description":""},{"name":null,"city":"\u041d\u043e\u0432\u043e\u043a\u0443\u0437\u043d\u0435\u0446\u043a","coordinates":["53.755051","87.086430"],"service":"2","description":""},{"name":null,"city":"\u041e\u0431\u043d\u0438\u043d\u0441\u043a","coordinates":["55.100675","36.639316"],"service":"2","description":""},{"name":null,"city":"\u041e\u043c\u0441\u043a","coordinates":["54.958714","73.400036"],"service":"2","description":""},{"name":null,"city":"\u041e\u0440\u0435\u043b","coordinates":["52.930183","36.030878"],"service":"1","description":""},{"name":null,"city":"\u041f\u0435\u043d\u0437\u0430","coordinates":["53.200566","44.983749"],"service":"2","description":""},{"name":null,"city":"\u041f\u0435\u0440\u043c\u044c","coordinates":["57.954029","56.230081"],"service":"2","description":""},{"name":null,"city":"\u041f\u0435\u0442\u0440\u043e\u043f\u0430\u0432\u043b\u043e\u0432\u0441\u043a-\u041a\u0430\u043c\u0447\u0430\u0442\u0441\u043a\u0438\u0439","coordinates":["53.058601","158.634826"],"service":"2","description":""},{"name":null,"city":"\u041f\u0441\u043a\u043e\u0432","coordinates":["57.838172","28.316424"],"service":"1","description":""},{"name":null,"city":"\u041f\u044f\u0442\u0438\u0433\u043e\u0440\u0441\u043a","coordinates":["44.053267","43.055393"],"service":"1","description":""},{"name":null,"city":"\u0420\u043e\u0441\u0442\u043e\u0432 \u043d\u0430 \u0414\u043e\u043d\u0443","coordinates":["47.218645","39.699714"],"service":"1","description":""},{"name":null,"city":"\u0420\u044f\u0437\u0430\u043d\u044c","coordinates":["54.629353","39.734814"],"service":"1","description":""},{"name":null,"city":"\u0421\u0430\u043c\u0430\u0440\u0430","coordinates":["53.259755","50.290380"],"service":"1","description":""},{"name":null,"city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","coordinates":["60.047889","30.342245"],"service":"1","description":""},{"name":null,"city":"\u0421\u0430\u0440\u0430\u043f\u0443\u043b","coordinates":["56.498802","53.797383"],"service":"2","description":""},{"name":null,"city":"\u0421\u0430\u0440\u0430\u0442\u043e\u0432","coordinates":["51.538232","46.048831"],"service":"1","description":""},{"name":null,"city":"\u0421\u0435\u0432\u0435\u0440\u043e\u0434\u0432\u0438\u043d\u0441\u043a","coordinates":["64.560765","39.856975"],"service":"1","description":""},{"name":null,"city":"\u0421\u0438\u043c\u0444\u0435\u0440\u043e\u043f\u043e\u043b\u044c","coordinates":["44.934463","34.071730"],"service":"1","description":""},{"name":null,"city":"\u0421\u043c\u043e\u043b\u0435\u043d\u0441\u043a","coordinates":["54.767638","32.002168"],"service":"2","description":""},{"name":null,"city":"\u0421\u0442\u0430\u0432\u0440\u043e\u043f\u043e\u043b\u044c","coordinates":["44.998904","41.921679"],"service":"2","description":""},{"name":null,"city":"\u0421\u0442\u0430\u0440\u044b\u0439 \u041e\u0441\u043a\u043e\u043b","coordinates":["51.284799","37.806713"],"service":"2","description":""},{"name":null,"city":"\u0421\u0443\u0440\u0433\u0443\u0442","coordinates":["61.259987","73.461241"],"service":"2","description":""},{"name":null,"city":"\u0422\u0432\u0435\u0440\u044c","coordinates":["56.861466","35.877700"],"service":"1","description":""},{"name":null,"city":"\u0422\u043e\u043b\u044c\u044f\u0442\u0442\u0438","coordinates":["53.533533","49.260412"],"service":"2","description":""},{"name":null,"city":"\u0422\u0443\u043b\u0430","coordinates":["54.157533","37.636760"],"service":"1","description":""},{"name":null,"city":"\u0422\u044e\u043c\u0435\u043d\u044c","coordinates":["57.154400","65.585403"],"service":"2","description":""},{"name":null,"city":"\u0423\u043b\u044c\u044f\u043d\u043e\u0432\u0441\u043a","coordinates":["54.329522","48.359830"],"service":"2","description":""},{"name":null,"city":"\u0423\u0444\u0430","coordinates":["54.719431","55.989312"],"service":"2","description":""},{"name":null,"city":"\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a","coordinates":["48.426383","135.106520"],"service":"2","description":""},{"name":null,"city":"\u0427\u0435\u0431\u043e\u043a\u0441\u0430\u0440\u044b","coordinates":["56.117693","47.258376"],"service":"2","description":""},{"name":null,"city":"\u0427\u0435\u043b\u044f\u0431\u0438\u043d\u0441\u043a","coordinates":["55.141912","61.440705"],"service":"2","description":""},{"name":null,"city":"\u0427\u0435\u0440\u0435\u043f\u043e\u0432\u0435\u0446","coordinates":["59.151285","37.93395"],"service":"2","description":""},{"name":null,"city":"\u042e\u0436\u043d\u043e-\u0421\u0430\u0445\u0430\u043b\u0438\u043d\u0441\u043a","coordinates":["46.933661","142.738643"],"service":"2","description":""},{"name":null,"city":"\u042f\u0440\u043e\u0441\u043b\u0430\u0432\u043b\u044c","coordinates":["57.623783","39.820062"],"service":"2","description":""},{"name":null,"city":"\u041d\u043e\u0432\u043e\u0441\u0438\u0431\u0438\u0440\u0441\u043a","coordinates":["54.996681","82.871939"],"service":null,"description":""}];
+    </script>
+
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtJq82mwW6G_R6hL6Jq9kCbSTjyM2wdJE&callback=initMap">
+    </script>
+
+    <script>
+        var markerImage = '/bitrix/templates/nordberg/img/marker.png';
+        var markerZindex = 3;
+        var mapStyles = [
+            {
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "color": "#323232"
+                    }
+                ]
+            },
+            {
+                "elementType": "labels.icon",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#3f3f3f"
+                    }
+                ]
+            },
+            {
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                    {
+                        "color": "#363636"
+                    }
+                ]
+            },
+            {
+                "featureType": "administrative",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "color": "#757575"
+                    }
+                ]
+            },
+            {
+                "featureType": "administrative.country",
+                "elementType": "geometry.stroke",
+                "stylers": [
+                    {
+                        "color": "#02aeef"
+                    }
+                ]
+            },
+            {
+                "featureType": "administrative.country",
+                "elementType": "labels.text",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "administrative.country",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#9e9e9e"
+                    }
+                ]
+            },
+            {
+                "featureType": "administrative.land_parcel",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "administrative.locality",
+                "stylers": [
+                    {
+                        "visibility": "on"
+                    }
+                ]
+            },
+            {
+                "featureType": "administrative.locality",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#bdbdbd"
+                    }
+                ]
+            },
+            {
+                "featureType": "administrative.province",
+                "stylers": [
+                    {
+                        "lightness": -40
+                    }
+                ]
+            },
+            {
+                "featureType": "poi",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#757575"
+                    }
+                ]
+            },
+            {
+                "featureType": "poi.park",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "color": "#181818"
+                    }
+                ]
+            },
+            {
+                "featureType": "poi.park",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#616161"
+                    }
+                ]
+            },
+            {
+                "featureType": "poi.park",
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                    {
+                        "color": "#1b1b1b"
+                    }
+                ]
+            },
+            {
+                "featureType": "road",
+                "elementType": "geometry.fill",
+                "stylers": [
+                    {
+                        "color": "#3c3c3c"
+                    }
+                ]
+            },
+            {
+                "featureType": "road",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#858585"
+                    }
+                ]
+            },
+            {
+                "featureType": "road.arterial",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "color": "#373737"
+                    }
+                ]
+            },
+            {
+                "featureType": "road.highway",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "color": "#3c3c3c"
+                    }
+                ]
+            },
+            {
+                "featureType": "road.highway.controlled_access",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "color": "#4e4e4e"
+                    }
+                ]
+            },
+            {
+                "featureType": "road.local",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#616161"
+                    }
+                ]
+            },
+            {
+                "featureType": "transit",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "transit",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#757575"
+                    }
+                ]
+            },
+            {
+                "featureType": "water",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "color": "#000000"
+                    }
+                ]
+            },
+            {
+                "featureType": "water",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#3d3d3d"
+                    }
+                ]
+            }
+        ];
+
+        var mapDealers;
+
+        function initMap() {
+            initDealersMap();
+            initContactsMap();
+        }
+
+        function initDealersMap() {
+            mapDealers = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: 58.2841761, lng: 56.4850113},
+                zoom: 5,
+                scrollWheel: 'none',
+                gestureHandling: 'cooperative',
+                zoomControl: true,
+                mapTypeControl: false,
+                scaleControl: false,
+                streetViewControl: false,
+                rotateControl: false,
+                fullscreenControl: false,
+                styles: mapStyles
+            });
+
+            // Map markets
+            for (var i = 0; i < window.dealers.length; i++) {
+
+                var marker = new google.maps.Marker({
+                    position: {
+                        lat: parseFloat(window.dealers[i].coordinates[0]),
+                        lng: parseFloat(window.dealers[i].coordinates[1])
+                    },
+                    map: mapDealers,
+                    icon: markerImage,
+                    zIndex: markerZindex
+                });
+
+                google.maps.event.addListener(marker, 'click', (function (marker, markerCount) {
+                    return function () {
+                        var infowindow = new google.maps.InfoWindow();
+
+                        var infoWindowData = '';
+                        if (window.dealers[markerCount].name) {
+                            infoWindowData += '<div style="color:#02aeef;font:600 18px Geometria, sans-serif;">' + window.dealers[markerCount].name + '</div>';
+                            infoWindowData += '<div style="color:#222;font:600 16px Geometria, sans-serif;">' + window.dealers[markerCount].city + '</div>';
+                        } else {
+                            infoWindowData += '<div style="color:#02aeef;font:600 18px Geometria, sans-serif;">' + window.dealers[markerCount].city + '</div>';
+                        }
+
+                        if (window.dealers[markerCount].service == 2) {
+                            infoWindowData += '<div style="color:#02aeef;font:400 14px Geometria, sans-serif;">Сервисный центр</div>';
+                        }
+
+                        if (window.dealers[markerCount].description) {
+                            infoWindowData += '<div style="color:#222;font:400 14px Geometria, sans-serif;">' + window.dealers[markerCount].description + '</div>';
+                        }
+
+                        infowindow.setContent(infoWindowData);
+                        infowindow.open(map, marker);
+                    }
+                })(marker, i));
+
+            }
+
+        }
+
+        var mapContacts;
+
+        function initContactsMap() {
+            mapContacts = new google.maps.Map(document.getElementById('map_contacts'), {
+                center: {lat: 54.634538, lng: 40.438807},
+                zoom: 5,
+                scrollWheel: 'none',
+                gestureHandling: 'cooperative',
+                zoomControl: true,
+                mapTypeControl: false,
+                scaleControl: false,
+                streetViewControl: false,
+                rotateControl: false,
+                fullscreenControl: false,
+                styles: mapStyles
+            });
+
+            var markerImage = '/bitrix/templates/nordberg/img/marker.png';
+
+            // Map markets
+            var marker = new google.maps.Marker({
+                position: {lat: 55.634538, lng: 37.438807},
+                map: mapContacts,
+                icon: markerImage
+            });
+
+            var infoWindowContent = '<div style="font-family:Roboto, sans-serif;font-weight:400;"><div style="color:#02aeef;font-size:20px;">Nordberg - офис в Москве</div><br>';
+            infoWindowContent += 'Москва, Киевское ш.,<br> БП «Румянцево», корпус В,<br> 14 подъезд, 6 этаж, офис 615 «В»<br><br>';
+            infoWindowContent += 'На 6-й этаж можно заехать на машине - имеется своя парковка. Максимальная высота автомобиля для въезда на пандус №4 - 2,6 метра. Выход станции метро «Румянцево» находится на территории Бизнес Парка «Румянцево» (выход 2-й вагон из центра).<br><br>';
+            infoWindowContent += '<a href="tel:+78005505350" style="color:#02aeef;">8 (800) 550-53-50</a><br>(по России бесплатно)<br><br>';
+            infoWindowContent += '<a href="tel:+74957273939" style="color:#02aeef;">+7 (495) 727-39-39</a><br><br>';
+            infoWindowContent += '<a href="mailto:info@nordberg.ru" style="color:#02aeef;">info@nordberg.ru</a><br><br>';
+            infoWindowContent += '<a href="https://www.youtube.com/watch?v=5-oYalAqojU" class="yt" target="_blank"></a>';
+            infoWindowContent += '<a href="/upload/address.pdf" class="doc" target="_blank">Схема проезда</a><br><br>';
+            infoWindowContent += 'ПН-ПТ: 9-19<br>СБ-ВС: выходной<br><br></div>';
+            // infoWindowContent+= '<iframe width="560" height="315" src="https://www.youtube.com/embed/5-oYalAqojU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+
+            var infowindow = new google.maps.InfoWindow({
+                content: infoWindowContent
+            });
+
+            // infowindow.open(map, marker);
+
+            marker.addListener('click', function () {
+                infowindow.open(mapContacts, marker);
+                infowindow2.close(mapContacts, marker2);
+                infowindow3.close(mapContacts, marker3);
+                infowindow4.close(mapContacts, marker4);
+            });
+
+
+            // Map markets
+            var marker2 = new google.maps.Marker({
+                position: {lat: 55.529681, lng: 36.987465},
+                map: mapContacts,
+                icon: markerImage,
+                visible: false
+            });
+
+            var infoWindowContent2 = '<div style="font-family:Roboto, sans-serif;font-weight:400;"><div style="color:#02aeef;font-size:20px;">Nordberg - Склад Москва</div><br>';
+            infoWindowContent2 += 'Склад <a href="tel:+74957273939" style="color:#02aeef;">+7 (495) 727-39-39</a><br>';
+            infoWindowContent2 += 'Сервисная служба в Москве <a href="tel:+79672056806" style="color:#02aeef;">+7 (967) 205-68-06</a><br>';
+            infoWindowContent2 += 'Время работы: <br> ПН-ПТ: с 9:00 до 18:00<br>СБ: с 8:00 до 17:00<br>';
+            infoWindowContent2 += '<a href="mailto:info@nordberg.ru" style="color:#02aeef;">info@nordberg.ru</a><br><br>';
+            infoWindowContent2 += 'Московская область, Наро-Фоминский район, Киевское шоссе, село Петровское<br><br>';
+            infoWindowContent2 += 'Проезд: Киевское шоссе, 31 км от МКАДа, Съезд направо на г. Звенигород,<br>После эстакады над ж/д проехать пешеходный светофор и сразу повернуть<br>направо за бордовое промышленное здание; Далее проехать до конца<br>зеленого сетчатого забора. Вы на месте - ангар серого цвета.<br><br>';
+            infoWindowContent2 += '<a href="https://www.youtube.com/watch?v=7BxyeU4J4Gg" class="yt" target="_blank"></a>';
+            infoWindowContent2 += '<a href="/upload/address.pdf" class="doc" target="_blank">Схема проезда</a>';
+            infoWindowContent2 += '</div>';
+
+            var infowindow2 = new google.maps.InfoWindow({
+                content: infoWindowContent2
+            });
+
+            // infowindow2.open(map, marker2);
+
+            marker2.addListener('click', function () {
+                infowindow.close(mapContacts, marker);
+                infowindow2.open(mapContacts, marker2);
+                infowindow3.close(mapContacts, marker3);
+                infowindow4.close(mapContacts, marker4);
+            });
+
+            google.maps.event.addListener(mapContacts, 'zoom_changed', function () {
+                var zoom = mapContacts.getZoom();
+                marker2.setVisible(zoom >= 7);
+            });
+
+
+            // Map markets
+			/* var marker3 = new google.maps.Marker({
+                position: {lat: 60.047889, lng: 30.342245},
+                map: mapContacts,
+                icon: markerImage
+            });
+
+            var infoWindowContent3 = '<div style="font-family:Roboto, sans-serif;font-weight:400;"><div style="color:#02aeef;font-size:20px;">Nordberg - Склад Санкт-Петербург</div><br>';
+            infoWindowContent3 += 'г. Санкт-Петербург, ул. Кременчугская, д.25, корп.4, литера «П»<br><br>';
+            infoWindowContent3 += '<a href="tel:+78005505350" style="color:#02aeef;">8 (800) 550-53-50</a><br>(по России бесплатно)<br><br>';
+            infoWindowContent3 += '<a href="mailto:info@nordberg.ru" style="color:#02aeef;">info@nordberg.ru</a><br><br>';
+            infoWindowContent3 += 'ПН-ПТ: 9-18<br>';
+            infoWindowContent3 += 'СБ-ВС: выходной';
+            infoWindowContent3 += '</div>';
+
+            var infowindow3 = new google.maps.InfoWindow({
+                content: infoWindowContent3
+            });
+
+            // infowindow3.open(map, marker3);
+
+            marker3.addListener('click', function () {
+                infowindow.close(mapContacts, marker);
+                infowindow2.close(mapContacts, marker2);
+                infowindow3.open(mapContacts, marker3);
+                infowindow4.close(mapContacts, marker4);
+});*/
+
+// Map markets
+            var marker3 = new google.maps.Marker({
+                position: {lat: 56.839104, lng: 60.60825},
+                map: mapContacts,
+                icon: markerImage
+            });
+
+            var infoWindowContent3 = '<div style="font-family:Roboto, sans-serif;font-weight:400;"><div style="color:#02aeef;font-size:20px;">Nordberg - Склад Екатеринбург</div><br>';
+            infoWindowContent3 += 'г. Екатеринбург, ул. Новостроя, д.1А.<br><br>';
+            infoWindowContent3 += '<a href="tel:+78005505350" style="color:#02aeef;">8 (800) 550-53-50</a><br>';
+            infoWindowContent3 += 'Прием звонков: с 9:00 до 18:00 (Пн-Пт)<br><br>';
+            infoWindowContent3 += '<a href="mailto:info@nordberg.ru" style="color:#02aeef;">info@nordberg.ru</a><br><br>';
+			//infoWindowContent5 += 'Сервисная служба в Новосибирске:<br><br>';
+			//infoWindowContent5 += '<a href="tel:+73833513202" style="color:#02aeef;">+7 (383) 351 32 02</a><br><br>';
+			//infoWindowContent5 += '<a href="mailto:t3513392@ya.ru" style="color:#02aeef;">t3513392@ya.ru</a>';
+            infoWindowContent3 += '</div>';
+
+            var infowindow3 = new google.maps.InfoWindow({
+                content: infoWindowContent3
+            });
+
+            marker3.addListener('click', function () {
+                infowindow.close(mapContacts, marker);
+                infowindow2.close(mapContacts, marker2);
+                infowindow3.open(mapContacts, marker3);
+                infowindow4.close(mapContacts, marker4);
+            });
+
+
+
+
+            // Map markets
+            var marker4 = new google.maps.Marker({
+                position: {lat: 54.955681, lng: 82.812964},
+                map: mapContacts,
+                icon: markerImage
+            });
+
+            var infoWindowContent4 = '<div style="font-family:Roboto, sans-serif;font-weight:400;"><div style="color:#02aeef;font-size:20px;">Nordberg - Склад Новосибирск</div><br>';
+            infoWindowContent4 += 'г. Новосибирск, Ленинский р-он., ул. Архонский пер 3.<br><br>';
+            infoWindowContent4 += '<a href="tel:+78005505350" style="color:#02aeef;">8 (800) 550-53-50</a><br>';
+            infoWindowContent4 += 'Прием звонков: с 9:00 до 18:00 (Пн-Пт)<br><br>';
+            infoWindowContent4 += '<a href="mailto:info@nordberg.ru" style="color:#02aeef;">info@nordberg.ru</a>';
+            infoWindowContent4 += '</div>';
+
+            var infowindow4 = new google.maps.InfoWindow({
+                content: infoWindowContent4
+            });
+
+            // infowindow4.open(map, marker4);
+
+            marker4.addListener('click', function () {
+                infowindow.close(mapContacts, marker);
+                infowindow2.close(mapContacts, marker2);
+				//infowindow3.close(mapContacts, marker3);
+                infowindow4.open(mapContacts, marker4);
+            });
+
+// Map markets
+            var marker5 = new google.maps.Marker({
+                position: {lat: 45.0352566, lng: 38.9764814},
+                map: mapContacts,
+                icon: markerImage
+            });
+
+            var infoWindowContent5 = '<div style="font-family:Roboto, sans-serif;font-weight:400;"><div style="color:#02aeef;font-size:20px;">Nordberg - Склад Краснодар</div><br>';
+            infoWindowContent5 += 'г. Краснодар, Восточный обход 9, заезд через парковку гипермаркета Лента (для самовывоза заранее позвонить)<br><br>';
+            infoWindowContent5 += '<a href="tel:+78005505350" style="color:#02aeef;">8 (800) 550-53-50</a><br>';
+            infoWindowContent5 += 'Прием звонков: с 9:00 до 18:00 (Пн-Пт)<br><br>';
+            infoWindowContent5 += '<a href="mailto:info@nordberg.ru" style="color:#02aeef;">info@nordberg.ru</a>';
+            infoWindowContent5 += '</div>';
+
+            var infowindow5 = new google.maps.InfoWindow({
+                content: infoWindowContent5
+            });
+
+            // infowindow4.open(map, marker4);
+
+            marker5.addListener('click', function () {
+				//infowindow.close(mapContacts, marker);
+				//infowindow2.close(mapContacts, marker2);
+				//infowindow3.close(mapContacts, marker3);
+                infowindow5.open(mapContacts, marker5);
+            });
+
+
+			if ($(window).width() < 1024) {
+                mapContacts.setOptions({'draggable': false});
+                mapContacts.setOptions({'zoom': 3});
+                mapContacts.setOptions({'center': {lat: 54.634538, lng: 70.438807}});
+}
+
+
+
+        }
+
+    </script>
+
+
+
+<noscript><div><img src="//mc.yandex.ru/watch/29110970?ut=noindex" style="position:absolute; left:-9999px;" alt="" /></div></noscript></body>
+</html>
