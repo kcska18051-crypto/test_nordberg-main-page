@@ -15,7 +15,7 @@
   <meta property="og:locale" content="ru_RU">
   <link rel="canonical" href="https://nordberg.ru/">
   <link rel="icon" href="images/logo-nordberg.png" type="image/png">
-  <link rel="stylesheet" href="./css/style.css?v=20260709-polish1">
+  <link rel="stylesheet" href="./css/style.css?v=20260709-polish9">
   <title>Nordberg - оборудование для автосервиса</title>
 </head>
 <body>
@@ -24,7 +24,11 @@
     <div class="header-top">
       <div class="container header-top__inner">
         <button class="location-button" type="button" aria-label="Выбрать город">
-          <span class="location-button__pin"></span>
+          <span class="location-button__pin" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22" focusable="false">
+              <path d="M5 11.2 19 5l-5.9 14-2.1-6.1-6-1.7Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            </svg>
+          </span>
           Москва
         </button>
         <nav class="top-nav" aria-label="Меню первого уровня">
@@ -54,6 +58,7 @@
           <span>market</span>
         </a>
         <div class="header-slogan">Лучшее оборудование<br>для вашего успеха</div>
+        <a class="catalog-button catalog-button--sticky" href="#offers"><span></span>Каталог</a>
         <form class="search-form" action="/search/" method="get">
           <label class="visually-hidden" for="site-search">Поиск по сайту</label>
           <input id="site-search" type="search" name="q" placeholder="Найти">
@@ -61,10 +66,30 @@
           <button class="search-form__submit" type="submit" aria-label="Найти"></button>
         </form>
         <div class="header-actions" aria-label="Пользовательские действия">
-          <button class="header-action" type="button" aria-label="Войти"><span class="header-action__icon">◎</span><span>Войти</span></button>
-          <button class="header-action" type="button" aria-label="Сравнение"><span class="header-action__icon">☷+</span><span>Сравнение</span></button>
-          <button class="header-action" type="button" aria-label="Избранное"><span class="header-action__icon">♡</span><span>Избранное</span></button>
-          <button class="header-action" type="button" aria-label="Корзина"><span class="header-action__icon">▢</span><span>Корзина</span></button>
+          <button class="header-action" type="button" aria-label="Войти">
+            <span class="header-action__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.2"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0"/></svg>
+            </span>
+            <span>Войти</span>
+          </button>
+          <button class="header-action" type="button" aria-label="Сравнение">
+            <span class="header-action__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 7h8M4 12h8M4 17h8M17 5v14M14 16h6"/></svg>
+            </span>
+            <span>Сравнение</span>
+          </button>
+          <button class="header-action" type="button" aria-label="Избранное">
+            <span class="header-action__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M20.2 8.6c0 5-8.2 9.7-8.2 9.7S3.8 13.6 3.8 8.6A4.3 4.3 0 0 1 12 6.7a4.3 4.3 0 0 1 8.2 1.9Z"/></svg>
+            </span>
+            <span>Избранное</span>
+          </button>
+          <button class="header-action" type="button" aria-label="Корзина">
+            <span class="header-action__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M7.2 8.5h9.6l-.7 10.2H7.9L7.2 8.5Z"/><path d="M9.2 8.5a2.8 2.8 0 0 1 5.6 0"/></svg>
+            </span>
+            <span>Корзина</span>
+          </button>
         </div>
       </div>
     </div>
@@ -119,14 +144,14 @@
     <section class="hero section-reveal" aria-label="Главные баннеры">
       <div class="container hero__grid">
         <div class="hero-slider" data-slider>
-          <article class="hero-slide is-active">
+          <article class="hero-slide hero-slide--image-bg is-active">
             <div class="hero-slide__content">
               <h1>Гайковерты</h1>
               <div class="hero-slide__actions">
                 <a class="button button--primary" href="#offers">Перейти в каталог</a>
               </div>
             </div>
-            <img class="hero-slide__image" src="images/hero-wrench.jpg" alt="Пневмогайковерт Nordberg">
+            <img class="hero-slide__image" src="images/hero-service-generated.png" alt="Оборудование для автосервиса Nordberg">
           </article>
           <article class="hero-slide">
             <div class="hero-slide__content">
@@ -328,28 +353,36 @@
     <section class="features section-reveal" id="features">
       <div class="container features__grid">
         <div class="feature-item">
-          <span class="feature-icon">↗</span>
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><path d="M8 31 30 9"/><path d="M15 9h15v15"/></svg>
+          </span>
           <div>
             <strong>Быстрая доставка</strong>
             <p>Бережно доставляем товары по России за 24 часа</p>
           </div>
         </div>
         <div class="feature-item">
-          <span class="feature-icon">☎</span>
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><path d="M11 18a9 9 0 0 1 18 0"/><path d="M8 19h6v10H8z"/><path d="M26 19h6v10h-6z"/><path d="M20 31h7"/></svg>
+          </span>
           <div>
             <strong>Клиентский сервис</strong>
             <p>Отвечаем на вопросы покупателей в течение 10 мин.</p>
           </div>
         </div>
         <div class="feature-item">
-          <span class="feature-icon">%</span>
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><path d="M10 30 30 10"/><circle cx="12" cy="12" r="4"/><circle cx="28" cy="28" r="4"/></svg>
+          </span>
           <div>
             <strong>Бонусы за покупки</strong>
             <p>Дарим подарки и скидки до 70% всем покупателям</p>
           </div>
         </div>
         <div class="feature-item">
-          <span class="feature-icon">₽</span>
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><path d="M13 7h11a7 7 0 0 1 0 14H13"/><path d="M13 7v26"/><path d="M9 21h16"/><path d="M9 27h14"/></svg>
+          </span>
           <div>
             <strong>Доступные цены</strong>
             <p>Работаем напрямую с ведущими производителями</p>
@@ -363,7 +396,7 @@
       <div class="container narrow-banner__inner">
         <div>
           <span class="eyebrow">Профессиональная линейка</span>
-          <h2>Оснащайте рабочие зоны комплексно: подъем, диагностика, компрессоры и инструмент.</h2>
+          <h2>Оснащайте рабочие зоны комплексно: подъем, диагностика,<br>компрессоры и инструмент.</h2>
         </div>
         <a class="button button--light" href="#contacts">Получить консультацию</a>
       </div>
@@ -372,10 +405,8 @@
     <!-- Видео -->
     <section class="video-section section-reveal" id="video">
       <div class="container">
-        <div class="section-head">
-          <span class="eyebrow">Видео</span>
+        <div class="section-head section-head--left">
           <h2>Видеообзоры оборудования</h2>
-          <a href="https://www.youtube.com/c/AUTOSERVICEVIDEO" target="_blank" rel="noopener">YouTube</a>
         </div>
         <div class="video-grid">
           <a class="video-card" href="https://www.youtube.com/c/AUTOSERVICEVIDEO" target="_blank" rel="noopener">
@@ -421,9 +452,8 @@
     <!-- Блог -->
     <section class="blog section-reveal" id="blog">
       <div class="container">
-        <div class="section-head">
-          <span class="eyebrow">Блог</span>
-          <h2>Новости и материалы</h2>
+        <div class="section-head section-head--left">
+          <h2>Блог</h2>
           <a href="/news/">Все новости</a>
         </div>
         <div class="blog-grid">
@@ -458,36 +488,33 @@
 
   <!-- Подвал -->
   <footer class="site-footer" id="contacts">
-    <div class="container footer__grid">
-      <div class="footer__brand">
-        <img src="images/logo-nordberg.png" alt="Nordberg">
-        <p>Лучшее оборудование для вашего успеха</p>
-        <div class="social-links" aria-label="Социальные сети">
-          <a href="https://vk.com/nordbergru" target="_blank" rel="noopener">VK</a>
-          <a href="https://www.youtube.com/c/AUTOSERVICEVIDEO" target="_blank" rel="noopener">YT</a>
-          <a href="https://t.me/nordbergru" target="_blank" rel="noopener">TG</a>
-        </div>
-      </div>
+    <div class="container footer-layout">
       <nav class="footer-nav" aria-label="Нижнее меню">
         <a href="/catalog/">Каталог</a>
-        <a href="/service/">Сервисная служба</a>
-        <a href="/delivery/">Доставка</a>
         <a href="/about/">О компании</a>
+        <a href="/news/">Новости</a>
+        <a href="/warranty/">Гарантия</a>
+        <a href="/blog/">Блог</a>
+        <a href="/delivery/">Доставка</a>
+        <a href="/payment/">Оплата</a>
+        <a href="/credit/">Кредит</a>
+        <a href="/leasing/">Лизинг</a>
+        <a href="/service/">Услуги</a>
         <a href="/contacts/">Контакты</a>
       </nav>
       <div class="footer-contacts">
         <a href="tel:+78003010674">8 800 301 0674</a>
-        <a href="mailto:info@nordberg.ru">info@nordberg.ru</a>
-        <address>Москва, Киевское ш., БП «Румянцево», корпус В, офис 615 «В»</address>
+        <a href="mailto:info@nordberg-market.ru">info@nordberg-market.ru</a>
+        <address>г. Ярославль, Проспект Октября, д.93</address>
       </div>
       <div class="footer-meta">
-        <a href="https://redstar.agency/" target="_blank" rel="noopener">Редстар</a>
         <a href="/privacy/">Конфиденциальность</a>
         <a href="/offer/">Оферта</a>
+        <span class="footer-developer">разработано в <a href="https://redstar.agency/" target="_blank" rel="noopener"><span></span>Редстар</a></span>
       </div>
     </div>
   </footer>
 
-  <script src="./js/script.js?v=20260709-polish1"></script>
+  <script src="./js/script.js?v=20260709-polish9"></script>
 </body>
 </html>
