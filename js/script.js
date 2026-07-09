@@ -1,8 +1,16 @@
 const body = document.body;
+const header = document.querySelector('[data-header]');
 const mobileMenu = document.querySelector('[data-menu]');
 const openMenuButton = document.querySelector('[data-menu-open]');
 const closeMenuButtons = document.querySelectorAll('[data-menu-close]');
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function updateHeaderState() {
+  header?.classList.toggle('is-scrolled', window.scrollY > 8);
+}
+
+updateHeaderState();
+window.addEventListener('scroll', updateHeaderState, { passive: true });
 
 function openMenu() {
   mobileMenu.classList.add('is-open');

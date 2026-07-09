@@ -2952,3 +2952,90 @@ button {
     padding-bottom: 34px;
   }
 }
+
+/* Client polish round 5: sticky header and precise vertical rhythm */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+  transition: box-shadow var(--transition), transform var(--transition);
+}
+
+.site-header.is-scrolled {
+  box-shadow: 0 8px 24px rgba(11, 37, 64, 0.08);
+}
+
+main section {
+  scroll-margin-top: 220px;
+}
+
+.hero-categories {
+  margin-bottom: 0;
+}
+
+.offers {
+  padding-top: 80px;
+}
+
+.features {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.features__grid {
+  align-items: center;
+  padding: 0;
+}
+
+.feature-item {
+  min-height: 0;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.feature-icon {
+  flex: 0 0 46px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.feature-icon svg {
+  display: block;
+}
+
+.narrow-banner {
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+
+.video-section {
+  padding-top: 80px;
+}
+
+@media (max-width: 1024px) {
+  .site-header {
+    position: sticky;
+  }
+}
+
+@media (max-width: 768px) {
+  main section {
+    scroll-margin-top: 90px;
+  }
+
+  .offers {
+    padding-top: 64px;
+  }
+
+  .features {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .feature-item {
+    padding: 0;
+  }
+}
