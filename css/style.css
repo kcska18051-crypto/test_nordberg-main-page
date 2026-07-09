@@ -3111,7 +3111,15 @@ main section {
 }
 
 .site-header.is-sticky {
-  box-shadow: 0 8px 24px rgba(11, 37, 64, 0.1);
+  background: rgba(255, 255, 255, 0.82);
+  border-bottom: 1px solid rgba(218, 226, 235, 0.72);
+  box-shadow: 0 10px 30px rgba(11, 37, 64, 0.11);
+  -webkit-backdrop-filter: blur(18px) saturate(1.35);
+  backdrop-filter: blur(18px) saturate(1.35);
+}
+
+.site-header.is-sticky .header-main {
+  background: rgba(255, 255, 255, 0.68);
 }
 
 .site-header.is-sticky .header-top,
@@ -3163,13 +3171,17 @@ main section {
   width: 100%;
   max-width: none;
   margin-left: 0;
-  border-color: #d7dce2;
+  border-color: rgba(188, 199, 212, 0.72);
   border-radius: 7px;
+  background: rgba(255, 255, 255, 0.84);
+  box-shadow: 0 6px 18px rgba(11, 37, 64, 0.06);
 }
 
 .site-header.is-sticky .search-form input {
   height: 46px;
+  color: #111;
   font-size: 16px;
+  background: transparent;
 }
 
 .site-header.is-sticky .search-form__catalog {
@@ -3198,6 +3210,7 @@ main section {
 
 .site-header.is-sticky .header-action {
   min-width: 58px;
+  color: #111;
   font-size: 13px;
   font-weight: 600;
 }
@@ -3293,5 +3306,11 @@ main section {
 
   .site-header.is-sticky .header-action span:not(.header-action__icon) {
     display: none;
+  }
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .site-header.is-sticky {
+    background: rgba(255, 255, 255, 0.96);
   }
 }
