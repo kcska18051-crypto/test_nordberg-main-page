@@ -15,7 +15,7 @@
   <meta property="og:locale" content="ru_RU">
   <link rel="canonical" href="https://nordberg.ru/">
   <link rel="icon" href="images/logo-nordberg.png" type="image/png">
-  <link rel="stylesheet" href="./css/style.css?v=20260709-pages-refresh">
+  <link rel="stylesheet" href="./css/style.css?v=20260709-mobile-polish">
   <title>Nordberg - оборудование для автосервиса</title>
 </head>
 <body>
@@ -188,7 +188,7 @@
           <h2>Лучшие предложения</h2>
           <a class="section-arrow" href="/catalog/" aria-label="В каталог">›</a>
         </div>
-        <div class="products-grid">
+        <div class="products-grid mobile-swipe" data-scroll-track="offers">
           <article class="product-card">
             <div class="product-card__badges"><span>Хит</span><span>Новинка</span></div>
             <button class="product-card__tool" type="button" aria-label="Добавить N4120A-4T в избранное">♡</button>
@@ -346,12 +346,13 @@
             </div>
           </article>
         </div>
+        <div class="mobile-scrollbar" data-scrollbar="offers" aria-hidden="true"><span></span></div>
       </div>
     </section>
 
     <!-- Фичеры -->
     <section class="features section-reveal" id="features">
-      <div class="container features__grid">
+      <div class="container features__grid mobile-swipe" data-scroll-track="features">
         <div class="feature-item">
           <span class="feature-icon" aria-hidden="true">
             <svg viewBox="0 0 40 40"><path d="M8 31 30 9"/><path d="M15 9h15v15"/></svg>
@@ -389,6 +390,9 @@
           </div>
         </div>
       </div>
+      <div class="container">
+        <div class="mobile-scrollbar mobile-scrollbar--features" data-scrollbar="features" aria-hidden="true"><span></span></div>
+      </div>
     </section>
 
     <!-- Узкий баннер -->
@@ -402,11 +406,33 @@
       </div>
     </section>
 
+    <!-- Статистика -->
+    <section class="stats-strip section-reveal" aria-label="Nordberg в цифрах">
+      <div class="container stats-strip__grid">
+        <div class="stats-card">
+          <strong data-count-to="24" data-count-suffix=" ч">24 ч</strong>
+          <span>бережная доставка по России</span>
+        </div>
+        <div class="stats-card">
+          <strong data-count-to="10" data-count-suffix=" мин">10 мин</strong>
+          <span>среднее время ответа специалиста</span>
+        </div>
+        <div class="stats-card">
+          <strong data-count-to="70" data-count-suffix="%">70%</strong>
+          <span>скидки и бонусы для покупателей</span>
+        </div>
+        <div class="stats-card">
+          <strong data-count-to="8800" data-count-format="compact">8 800</strong>
+          <span>бесплатная линия поддержки</span>
+        </div>
+      </div>
+    </section>
+
     <!-- Видео -->
     <section class="video-section section-reveal" id="video">
       <div class="container">
         <div class="section-head section-head--left">
-          <h2>Видеообзоры оборудования</h2>
+          <h3>Видеообзоры оборудования</h3>
         </div>
         <div class="video-grid">
           <a class="video-card" href="https://www.youtube.com/c/AUTOSERVICEVIDEO" target="_blank" rel="noopener">
@@ -453,7 +479,7 @@
     <section class="blog section-reveal" id="blog">
       <div class="container">
         <div class="section-head section-head--left">
-          <h2>Блог</h2>
+          <h3>Блог</h3>
           <a href="/news/">Все новости</a>
         </div>
         <div class="blog-grid">
@@ -515,6 +541,6 @@
     </div>
   </footer>
 
-  <script src="./js/script.js?v=20260709-polish9"></script>
+  <script src="./js/script.js?v=20260709-mobile-polish"></script>
 </body>
 </html>
