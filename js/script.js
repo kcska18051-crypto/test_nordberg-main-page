@@ -6,7 +6,9 @@ const closeMenuButtons = document.querySelectorAll('[data-menu-close]');
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 function updateHeaderState() {
+  const isSticky = window.scrollY >= 100;
   header?.classList.toggle('is-scrolled', window.scrollY > 8);
+  header?.classList.toggle('is-sticky', isSticky);
 }
 
 updateHeaderState();
