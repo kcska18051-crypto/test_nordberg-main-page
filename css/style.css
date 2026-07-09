@@ -3039,3 +3039,43 @@ main section {
     padding: 0;
   }
 }
+
+/* Client polish round 6: exact category gap and centered feature icons */
+.hero-categories {
+  margin-bottom: 40px;
+}
+
+.feature-item {
+  display: grid;
+  grid-template-columns: 46px minmax(0, 1fr);
+  align-items: center;
+  column-gap: 18px;
+}
+
+.feature-item .feature-icon {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  min-width: 46px;
+  min-height: 46px;
+  padding: 0;
+  line-height: 0;
+}
+
+.feature-item .feature-icon svg {
+  display: block;
+  width: 26px;
+  height: 26px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .hero-categories {
+    margin-bottom: 40px;
+  }
+
+  .feature-item {
+    grid-template-columns: 46px minmax(0, 1fr);
+  }
+}
